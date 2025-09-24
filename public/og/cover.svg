@@ -1,0 +1,32 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#0B0B11"/>
+  <g filter="url(#glowPurple)">
+    <circle cx="240" cy="180" r="220" fill="#9D4EDD" fill-opacity="0.35"/>
+  </g>
+  <g filter="url(#glowBlue)">
+    <circle cx="980" cy="160" r="240" fill="#00B4D8" fill-opacity="0.32"/>
+  </g>
+  <g filter="url(#glowPink)">
+    <circle cx="820" cy="540" r="200" fill="#FF0054" fill-opacity="0.18"/>
+  </g>
+  <text x="120" y="310" fill="#F5F5F7" font-family="'Orbitron', 'Montserrat', sans-serif" font-size="82" letter-spacing="0.4em">
+    ADULT Z
+  </text>
+  <text x="120" y="400" fill="#F5F5F7" font-family="'Inter', 'Helvetica Neue', sans-serif" font-size="36" letter-spacing="0.12em">
+    GELECEĞİN GERÇEKLİK DENEYİMİ
+  </text>
+  <text x="120" y="460" fill="#C5C6D0" font-family="'Inter', 'Helvetica Neue', sans-serif" font-size="24" letter-spacing="0.08em">
+    Realistik silikon bebekler ve premium modern ürünler
+  </text>
+  <defs>
+    <filter id="glowPurple" x="-120" y="-180" width="720" height="720" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="80"/>
+    </filter>
+    <filter id="glowBlue" x="580" y="-240" width="800" height="800" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="100"/>
+    </filter>
+    <filter id="glowPink" x="420" y="140" width="800" height="800" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="100"/>
+    </filter>
+  </defs>
+</svg>
