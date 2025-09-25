@@ -1,15 +1,15 @@
 import type { Metadata } from "next";
-import { Orbitron, Inter } from "next/font/google";
+import { Saira, Inter } from "next/font/google";
 import "./globals.css";
 import { Providers } from "@/components/providers/providers";
 import { SiteHeader } from "@/components/layout/site-header";
 import { SiteFooter } from "@/components/layout/site-footer";
 
-const orbitron = Orbitron({
+const saira = Saira({
   subsets: ["latin"],
-  variable: "--font-orbitron",
+  variable: "--font-saira",
   display: "swap",
-  weight: ["400", "500", "600", "700"],
+  weight: ["300", "400", "500", "600", "700"],
 });
 
 const inter = Inter({
@@ -81,7 +81,7 @@ export default function RootLayout({
   return (
     <html lang="tr">
       <body
-        className={`${orbitron.variable} ${inter.variable} font-sans bg-background text-foreground antialiased`}
+        className={`${saira.variable} ${inter.variable} font-sans bg-background text-foreground antialiased`}
       >
         <Providers>
           <div className="flex min-h-screen flex-col">
