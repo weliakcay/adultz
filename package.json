@@ -6,24 +6,29 @@
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "excel:template": "ts-node --project tsconfig.scripts.json scripts/create-excel-template.ts",
+    "excel:export": "ts-node --project tsconfig.scripts.json scripts/export-dolls-to-excel.ts",
+    "excel:import": "ts-node --project tsconfig.scripts.json scripts/import-dolls-from-excel.ts data/bebekler.xlsx"
   },
   "dependencies": {
     "clsx": "^2.1.1",
     "next": "15.5.4",
     "react": "19.1.0",
     "react-dom": "19.1.0",
-    "uuid": "^13.0.0"
+    "uuid": "^13.0.0",
+    "xlsx": "^0.18.5"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4",
-    "@types/node": "^20",
+    "@types/node": "^20.19.24",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "15.5.4",
     "tailwindcss": "^4",
+    "ts-node": "^10.9.2",
     "typescript": "^5"
   }
 }

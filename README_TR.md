@@ -11,6 +11,24 @@ Adult X markası için hazırlanan bu repo, neon vurgulu karanlık temalı bir N
 - **Analitik:** `useAnalytics` sağlayıcısı üzerinden `hero_cta_click`, `card_open`, `persona_chat_open`, `persona_chat_send`, `quiz_start`, `quiz_finish`, `customize_start`, `customize_finish`, `add_to_cart`, `checkout_start`, `purchase` event isimleri hazır
 
 ## İçerik Güncelleme Akışı (Data / CMS)
+
+### 📊 Excel ile Ürün Yönetimi (Önerilen)
+Bebek ürünlerini Excel dosyası üzerinden kolayca yönetebilirsiniz. **Kod bilgisine gerek yoktur!**
+
+```bash
+# Mevcut verileri Excel'e aktar
+npm run excel:export
+
+# Excel şablonu oluştur
+npm run excel:template
+
+# Excel'den verileri siteye aktar
+npm run excel:import
+```
+
+**Detaylı kullanım için**: [EXCEL_KULLANIMI.md](./EXCEL_KULLANIMI.md)
+
+### 💻 Manuel Kod Düzenleme
 1. **Ürün Verileri:** `src/data/dolls.ts` ve `src/data/accessories.ts` dosyalarındaki TypeScript tiplerini takip ederek yeni ürünler ekleyin. `gallery` alanında telifsiz görseller kullanın ve `next.config.ts` içine gerekli `remotePatterns` eklemeyi unutmayın.
 2. **Blog Yazıları:** `src/data/posts.ts` dosyasında Markdown benzeri içerik tutarlar. Başlık, özet, okuma süresi ve ilişkili ürün slug listesini güncelleyin.
 3. **Persona Chat:** `src/data/persona-chat.ts` dosyasındaki `kb` alanı, hızlı cevapların temelini oluşturur. Yeni persona eklerken `PersonaChat` bileşenine `personaId` olarak aynı slug'ı geçin.
@@ -48,6 +66,11 @@ npm run dev        # Turbopack ile geliştirme
 npm run build      # Production derlemesi
 npm run start      # Production server
 npm run lint       # ESLint
+
+# Excel İşlemleri
+npm run excel:template  # Boş Excel şablonu oluştur
+npm run excel:export    # Mevcut verileri Excel'e aktar
+npm run excel:import    # Excel'den verileri siteye aktar
 ```
 
 ## Sonraki Adımlar
