@@ -5,7 +5,7 @@ import { AccessoryCard } from "@/components/modules/accessory-card";
 
 export const metadata: Metadata = buildMetadata({
   title: "Gizli Oyuncaklar",
-  description: "Adult Z gizli oyuncak koleksiyonu: minimalist, sessiz ve taşınabilir çözümler.",
+  description: "Adult X gizli oyuncak koleksiyonu: minimalist, sessiz ve taşınabilir çözümler.",
   path: "/oyuncaklar/gizli",
 });
 
@@ -20,7 +20,7 @@ export default function DiscreetAccessoriesPage() {
           Gizli Oyuncaklar
         </h1>
         <p className="mt-4 text-sm text-muted">
-          Minimal tasarımlar, kokusuz saklama ve mahremiyet odaklı paketleme. Sessiz çalışma moduyla Adult Z ekosistemine uyumlu.
+          Minimal tasarımlar, kokusuz saklama ve mahremiyet odaklı paketleme. Sessiz çalışma moduyla Adult X ekosistemine uyumlu.
         </p>
       </header>
       <div className="mt-12 grid gap-8 md:grid-cols-2 lg:grid-cols-3">

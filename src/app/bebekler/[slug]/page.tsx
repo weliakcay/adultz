@@ -17,13 +17,13 @@ export function generateMetadata({
   const doll = getDollBySlug(params.slug);
   if (!doll) {
     return buildMetadata({
-      title: "Adult Z Bebek",
-      description: "Adult Z bebek profili bulunamadı.",
+      title: "Adult X Bebek",
+      description: "Adult X bebek profili bulunamadı.",
       path: `/bebekler/${params.slug}`,
     });
   }
   return buildMetadata({
-    title: `${doll.name} | Adult Z`,
+    title: `${doll.name} | Adult X`,
     description: doll.persona.summary,
     path: `/bebekler/${doll.slug}`,
     image: doll.gallery[0]?.src ?? "/og/cover.svg",

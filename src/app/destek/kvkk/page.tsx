@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import { buildMetadata } from "@/lib/metadata";
 
 export const metadata: Metadata = buildMetadata({
-  title: "Adult Z KVKK Bilgilendirmesi",
-  description: "Adult Z tarafından işlenen kişisel veriler, saklama süreleri ve haklarınız hakkında bilgilendirme.",
+  title: "Adult X KVKK Bilgilendirmesi",
+  description: "Adult X tarafından işlenen kişisel veriler, saklama süreleri ve haklarınız hakkında bilgilendirme.",
   path: "/destek/kvkk",
 });
 
@@ -43,7 +43,7 @@ export default function KVKKPage() {
           KVKK Bilgilendirmesi
         </h1>
         <p className="mt-4 text-sm text-muted">
-          Adult Z, 6698 sayılı Kişisel Verilerin Korunması Kanunu kapsamında veri minimizasyonu ve şeffaflık prensipleriyle hareket eder. Verileriniz yalnızca açık rızanızla ve belirtilen amaçlar doğrultusunda işlenir.
+          Adult X, 6698 sayılı Kişisel Verilerin Korunması Kanunu kapsamında veri minimizasyonu ve şeffaflık prensipleriyle hareket eder. Verileriniz yalnızca açık rızanızla ve belirtilen amaçlar doğrultusunda işlenir.
         </p>
       </header>
       <div className="mt-12 space-y-6">
@@ -68,7 +68,7 @@ export default function KVKKPage() {
           İletişim
         </h2>
         <p>
-          Veri Sorumlusu: Adult Z Labs • kvkk@adultz.com • Maslak, İstanbul. Başvurularınıza 30 gün içinde cevap veriyoruz.
+          Veri Sorumlusu: Adult X Labs • kvkk@adultz.com • Maslak, İstanbul. Başvurularınıza 30 gün içinde cevap veriyoruz.
         </p>
       </section>
     </div>

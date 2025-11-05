@@ -72,7 +72,7 @@ export function AgeGate() {
     >
       <div className="glass-panel neon-border max-w-lg rounded-[28px] p-8 text-center shadow-2xl">
         <p className="text-xs uppercase tracking-[0.35em] text-muted">
-          Adult Z
+          Adult X
         </p>
         <h2
           id="age-gate-title"
@@ -82,7 +82,7 @@ export function AgeGate() {
           Gizlilik Önceliğimiz
         </h2>
         <p className="mt-4 text-muted">
-          Adult Z ürünleri yalnızca 18 yaş ve üzeri kişiler için tasarlandı. Gizli
+          Adult X ürünleri yalnızca 18 yaş ve üzeri kişiler için tasarlandı. Gizli
           paketleme, isimsiz faturalandırma ve KVKK uyumlu veri işlemesiyle mahremiyetinizi koruyoruz.
         </p>
         <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:justify-center">

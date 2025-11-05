@@ -17,7 +17,7 @@ export function Hero() {
       <div className="absolute inset-0 bg-[rgba(7,7,12,0.75)]" />
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-[rgba(7,7,12,0.65)] to-[rgba(7,7,12,0.9)]" />
       <div className="relative mx-auto flex max-w-5xl flex-col gap-6 px-6 py-32 text-center sm:py-40">
-        <p className="text-xs uppercase tracking-[0.35em] text-muted">Adult Z Manifesto</p>
+        <p className="text-xs uppercase tracking-[0.35em] text-muted">Adult X Manifesto</p>
         <h1 className="glitch-text font-display text-4xl uppercase tracking-[0.32em] text-foreground sm:text-5xl"
           data-text="Geleceğin Gerçeklik Deneyimi"
         >

@@ -29,7 +29,7 @@ export function buildMetadata({
         },
       ],
       locale: "tr_TR",
-      siteName: "Adult Z",
+      siteName: "Adult X",
       type: "website",
     },
     twitter: {

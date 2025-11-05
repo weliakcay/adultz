@@ -73,13 +73,13 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
   const post = getPostBySlug(params.slug);
   if (!post) {
     return buildMetadata({
-      title: "Adult Z Eğitim İçeriği",
-      description: "Adult Z eğitim içeriği bulunamadı.",
+      title: "Adult X Eğitim İçeriği",
+      description: "Adult X eğitim içeriği bulunamadı.",
       path: `/egitim/${params.slug}`,
     });
   }
   return buildMetadata({
-    title: `${post.title} | Adult Z Eğitim`,
+    title: `${post.title} | Adult X Eğitim`,
     description: post.excerpt,
     path: `/egitim/${post.slug}`,
     image: post.cover.src,

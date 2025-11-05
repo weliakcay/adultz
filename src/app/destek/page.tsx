@@ -26,8 +26,8 @@ const resources = [
 ];
 
 export const metadata: Metadata = buildMetadata({
-  title: "Adult Z Destek Merkezi",
-  description: "Beden rehberi, bakım rehberi ve sık sorulan sorularla Adult Z destek merkezi.",
+  title: "Adult X Destek Merkezi",
+  description: "Beden rehberi, bakım rehberi ve sık sorulan sorularla Adult X destek merkezi.",
   path: "/destek",
 });
 
@@ -40,7 +40,7 @@ export default function SupportPage() {
           Destek Merkezi
         </h1>
         <p className="mt-4 text-sm text-muted">
-          Adult Z ekibi, gizli chat ve randevulu telefon hattı ile 7/24 yanınızda. Destek makalelerimizle bakım ve teslimat süreçlerini güvenle yönetin.
+          Adult X ekibi, gizli chat ve randevulu telefon hattı ile 7/24 yanınızda. Destek makalelerimizle bakım ve teslimat süreçlerini güvenle yönetin.
         </p>
       </header>
       <div className="mt-12 grid gap-6 sm:grid-cols-2">

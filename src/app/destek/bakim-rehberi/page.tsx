@@ -8,7 +8,7 @@ const steps = [
   },
   {
     title: "Temizlik",
-    description: "Sabunsuz Adult Z solüsyonunu mikrofiber beze sıkın, dairesel hareketlerle yüzeyi temizleyin.",
+    description: "Sabunsuz Adult X solüsyonunu mikrofiber beze sıkın, dairesel hareketlerle yüzeyi temizleyin.",
   },
   {
     title: "Kurulama",
@@ -21,8 +21,8 @@ const steps = [
 ];
 
 export const metadata: Metadata = buildMetadata({
-  title: "Adult Z Bakım Rehberi",
-  description: "Adult Z bebekleri için haftalık bakım akışı, saklama önerileri ve güvenlik kontrolleri.",
+  title: "Adult X Bakım Rehberi",
+  description: "Adult X bebekleri için haftalık bakım akışı, saklama önerileri ve güvenlik kontrolleri.",
   path: "/destek/bakim-rehberi",
 });
 
@@ -35,7 +35,7 @@ export default function CareGuidePage() {
           Bakım Rehberi
         </h1>
         <p className="mt-4 text-sm text-muted">
-          15 dakikalık bakım ritüeliyle Adult Z bebeğinizin formunu koruyun. Tüm kimyasal ürünler dermatolojik testlerden geçirilmiştir.
+          15 dakikalık bakım ritüeliyle Adult X bebeğinizin formunu koruyun. Tüm kimyasal ürünler dermatolojik testlerden geçirilmiştir.
         </p>
       </header>
       <ol className="mt-10 space-y-4">
@@ -57,7 +57,7 @@ export default function CareGuidePage() {
           Güvenlik Notları
         </h2>
         <ul className="mt-3 list-disc space-y-2 pl-5">
-          <li>Bakım kayıtlarınızı Adult Z uygulamasına girerseniz, veriler 24 saat sonra anonimleştirilir.</li>
+          <li>Bakım kayıtlarınızı Adult X uygulamasına girerseniz, veriler 24 saat sonra anonimleştirilir.</li>
           <li>Elektronik modüller su ile temas etmemelidir; nemli bez yeterlidir.</li>
           <li>Koku giderici tabletleri 12 ayda bir değiştirin.</li>
         </ul>

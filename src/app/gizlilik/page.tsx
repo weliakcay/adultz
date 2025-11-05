@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import { buildMetadata } from "@/lib/metadata";
 
 export const metadata: Metadata = buildMetadata({
-  title: "Adult Z Gizlilik Politikası",
-  description: "Adult Z gizlilik taahhüdü, veri saklama süreleri ve kullanıcı hakları.",
+  title: "Adult X Gizlilik Politikası",
+  description: "Adult X gizlilik taahhüdü, veri saklama süreleri ve kullanıcı hakları.",
   path: "/gizlilik",
 });
 
@@ -35,7 +35,7 @@ export default function PrivacyPage() {
           Gizlilik Politikası
         </h1>
         <p className="mt-4 text-sm text-muted">
-          Adult Z, mahremiyetinizi korumak için ürün, lojistik ve destek operasyonlarının her adımında gizlilik standartları uygular.
+          Adult X, mahremiyetinizi korumak için ürün, lojistik ve destek operasyonlarının her adımında gizlilik standartları uygular.
         </p>
       </header>
       <div className="mt-12 space-y-6">

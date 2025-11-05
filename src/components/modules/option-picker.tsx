@@ -12,7 +12,7 @@ const basePrice = 72000;
 const heroPreview = [
   {
     src: "https://images.unsplash.com/photo-1524504388940-b1c1722653e1",
-    alt: "Adult Z bebek önizleme",
+    alt: "Adult X bebek önizleme",
   },
   {
     src: "https://images.unsplash.com/photo-1544723795-3fb6469f5b39",
@@ -249,7 +249,7 @@ export function OptionPicker() {
   const handleComplete = () => {
     track("customize_finish", { price: totalPrice });
     pushToast({
-      title: "Adult Z Sepete Eklendi",
+      title: "Adult X Sepete Eklendi",
       description: "Tercihleriniz gizli olarak kaydedildi.",
       variant: "success",
     });
@@ -403,7 +403,7 @@ export function OptionPicker() {
         open={drawerOpen}
         onClose={() => setDrawerOpen(false)}
         summary={{
-          name: "Adult Z Kişiselleştirilmiş Bebek",
+          name: "Adult X Kişiselleştirilmiş Bebek",
           price: totalPrice,
           currency: "TRY",
           selections: steps

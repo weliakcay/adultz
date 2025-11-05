@@ -16,7 +16,7 @@ export default function HomePage() {
         <section>
           <header className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
             <div>
-              <p className="text-xs uppercase tracking-[0.3em] text-muted">Adult Z Koleksiyonu</p>
+              <p className="text-xs uppercase tracking-[0.3em] text-muted">Adult X Koleksiyonu</p>
               <h2 className="mt-2 font-display text-3xl uppercase tracking-[0.3em] text-foreground">
                 Realistik Bebekler
               </h2>
@@ -39,7 +39,7 @@ export default function HomePage() {
               Neon Modern Koleksiyon
             </h3>
             <p className="mt-3 text-sm text-muted">
-              Sessiz mod, su geçirmez gövde ve Adult Z uygulamasıyla senkron çalışan modern oyuncaklarımızı keşfedin.
+              Sessiz mod, su geçirmez gövde ve Adult X uygulamasıyla senkron çalışan modern oyuncaklarımızı keşfedin.
             </p>
             <NeonButton href="/oyuncaklar/modern" intensity="blue" size="sm" className="mt-6">
               Modern Oyuncaklar
@@ -108,7 +108,7 @@ export default function HomePage() {
           </h3>
           <div className="mt-4 grid gap-6 sm:grid-cols-2">
             <p className="text-sm text-muted">
-              Adult Z, gerçeklik deneyimini mahremiyet merkezli teknolojilerle yeniden tasarlıyor. Neon glow estetiğini minimalizmle buluşturuyor, her temas noktasında güven ve gizlilik sunuyoruz.
+              Adult X, gerçeklik deneyimini mahremiyet merkezli teknolojilerle yeniden tasarlıyor. Neon glow estetiğini minimalizmle buluşturuyor, her temas noktasında güven ve gizlilik sunuyoruz.
             </p>
             <p className="text-sm text-muted">
               Gizli paketleme, isimsiz faturalar, KVKK uyumlu veri işleme ve uzman bakım rehberleri ile her adımı şeffaf biçimde paylaşıyoruz. Tasarım stüdyomuzda geliştirilen silikon dokular etik ve sürdürülebilir tedarikten geliyor.

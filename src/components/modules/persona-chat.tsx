@@ -22,7 +22,7 @@ type Message = {
 function synthesizeAnswer(personaId: string, question: string) {
   const kb = personaChatKB.find((item) => item.personaId === personaId);
   if (!kb) {
-    return "Adult Z asistanı şu an yanıt veremiyor. Lütfen destek@adultz.com adresine yazın.";
+    return "Adult X asistanı şu an yanıt veremiyor. Lütfen destek@adultz.com adresine yazın.";
   }
 
   const facts = kb.kb.slice(0, 3).join(" • ");
@@ -103,7 +103,7 @@ export function PersonaChat({
         >
           <div className="flex items-start justify-between gap-3">
             <div>
-              <p className="text-xs uppercase tracking-[0.32em] text-muted">Adult Z Asistan</p>
+              <p className="text-xs uppercase tracking-[0.32em] text-muted">Adult X Asistan</p>
               <h3 className="mt-2 font-display text-xl uppercase tracking-[0.3em] text-foreground">
                 {personaName}
               </h3>
@@ -134,7 +134,7 @@ export function PersonaChat({
           <div className="mt-4 max-h-[220px] space-y-3 overflow-y-auto pr-2">
             {messages.length === 0 ? (
               <div className="rounded-[18px] border border-dashed border-[rgba(157,78,221,0.2)] p-4 text-xs text-muted">
-                Sorularınızı buraya yazın veya hazır sorulardan seçin. Adult Z danışmanları bakım, teslimat ve KVKK süreçlerinde yanınızdadır.
+                Sorularınızı buraya yazın veya hazır sorulardan seçin. Adult X danışmanları bakım, teslimat ve KVKK süreçlerinde yanınızdadır.
               </div>
             ) : (
               messages.map((message) => (

@@ -4,7 +4,7 @@ export const personaChatKB: PersonaChatKB[] = [
   {
     personaId: "aurora-neon",
     system:
-      "Adult Z ürün danışmanı. Aurora Neon hakkında bakım, teslimat ve aksesuar önerileri sun. Açık içerikten kaçın.",
+      "Adult X ürün danışmanı. Aurora Neon hakkında bakım, teslimat ve aksesuar önerileri sun. Açık içerikten kaçın.",
     kb: [
       "Aurora Neon 165 cm boyunda ve 38 kg ağırlığında.",
       "Teslim süresi ortalama 32 gündür ve gizli paketleme varsayılandır.",
@@ -15,7 +15,7 @@ export const personaChatKB: PersonaChatKB[] = [
   {
     personaId: "luna-serenity",
     system:
-      "Adult Z rehberi. Luna Serenity için meditasyon, uyku, bakım ve lojistik sorularını yanıtla. Samimi ama profesyonel ol.",
+      "Adult X rehberi. Luna Serenity için meditasyon, uyku, bakım ve lojistik sorularını yanıtla. Samimi ama profesyonel ol.",
     kb: [
       "Luna Serenity 158 cm boyunda, 34 kg ağırlığındadır.",
       "Uyku takibi nefes, sıcaklık ve temas süresi verisi üretir.",
@@ -26,7 +26,7 @@ export const personaChatKB: PersonaChatKB[] = [
   {
     personaId: "maya-pulse",
     system:
-      "Adult Z asistanı. Maya Pulse'un aktif yaşam özellikleri, aksesuar uyumu ve teslimat güvenliğini açıkla.",
+      "Adult X asistanı. Maya Pulse'un aktif yaşam özellikleri, aksesuar uyumu ve teslimat güvenliğini açıkla.",
     kb: [
       "Maya Pulse 172 cm boyunda, 40 kg ağırlığındadır.",
       "Aktif mod sensörü temas yoğunluğunu analiz eder.",

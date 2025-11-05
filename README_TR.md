@@ -1,6 +1,6 @@
-# Adult Z Next.js Sitesi
+# Adult X Next.js Sitesi
 
-Adult Z markası için hazırlanan bu repo, neon vurgulu karanlık temalı bir Next.js 15 (App Router) uygulaması içerir. Tasarım, realistik silikon bebekler ve modern/gizli oyuncak koleksiyonunu mahremiyet odaklı bir dil ile sunmayı hedefler.
+Adult X markası için hazırlanan bu repo, neon vurgulu karanlık temalı bir Next.js 15 (App Router) uygulaması içerir. Tasarım, realistik silikon bebekler ve modern/gizli oyuncak koleksiyonunu mahremiyet odaklı bir dil ile sunmayı hedefler.
 
 ## Mimarinin Özeti
 - **Framework:** Next.js 15 (App Router, TypeScript, React 19)

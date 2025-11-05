@@ -18,31 +18,31 @@ const inter = Inter({
   display: "swap",
 });
 
-const siteTitle = "Adult Z | Geleceğin Gerçeklik Deneyimi";
+const siteTitle = "Adult X | Geleceğin Gerçeklik Deneyimi";
 const siteDescription =
-  "Adult Z: Realistik silikon bebekler ve modern gizli oyuncaklarla mahremiyet odaklı premium deneyim.";
+  "Adult X: Realistik silikon bebekler ve modern gizli oyuncaklarla mahremiyet odaklı premium deneyim.";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://adultz.example"),
   title: {
     default: siteTitle,
-    template: "%s | Adult Z",
+    template: "%s | Adult X",
   },
   description: siteDescription,
-  applicationName: "Adult Z",
+  applicationName: "Adult X",
   keywords: [
     "realistik bebek",
     "premium oyuncaklar",
     "mahremiyet",
     "gizli kargo",
-    "adult z",
+    "adult x",
   ],
   category: "commerce",
   openGraph: {
     title: siteTitle,
     description: siteDescription,
     url: "https://adultz.example",
-    siteName: "Adult Z",
+    siteName: "Adult X",
     type: "website",
     locale: "tr_TR",
     images: [
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
         url: "/og/cover.svg",
         width: 1200,
         height: 630,
-        alt: "Adult Z neon hero görseli",
+        alt: "Adult X neon hero görseli",
       },
     ],
   },
@@ -58,7 +58,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: siteTitle,
     description: siteDescription,
-    creator: "@adultz",
+    creator: "@adultx",
     images: ["/og/cover.svg"],
   },
   alternates: {

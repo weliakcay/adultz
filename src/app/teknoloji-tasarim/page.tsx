@@ -29,8 +29,8 @@ const innovations = [
 ];
 
 export const metadata: Metadata = buildMetadata({
-  title: "Adult Z Teknoloji & Tasarım",
-  description: "Adult Z bebeklerinin iskelet teknolojileri, silikon dokuları ve mahremiyet çözümleri.",
+  title: "Adult X Teknoloji & Tasarım",
+  description: "Adult X bebeklerinin iskelet teknolojileri, silikon dokuları ve mahremiyet çözümleri.",
   path: "/teknoloji-tasarim",
 });
 
@@ -43,7 +43,7 @@ export default function TechDesignPage() {
           Teknoloji & Tasarım
         </h1>
         <p className="mt-4 text-sm text-muted">
-          Adult Z tasarım ekibi, haptik mühendislik ve mahremiyet standartlarını aynı potada eritiyor. Neon glow estetiği ve minimal formlar dengeli bir kullanıcı deneyimi sağlar.
+          Adult X tasarım ekibi, haptik mühendislik ve mahremiyet standartlarını aynı potada eritiyor. Neon glow estetiği ve minimal formlar dengeli bir kullanıcı deneyimi sağlar.
         </p>
       </header>
       <section className="mt-12 grid gap-6 md:grid-cols-3">

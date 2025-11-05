@@ -3,8 +3,8 @@ import { QuizForm } from "@/components/modules/quiz-form";
 import { buildMetadata } from "@/lib/metadata";
 
 export const metadata: Metadata = buildMetadata({
-  title: "Adult Z Deneyim Quizi",
-  description: "5 soruda Adult Z bebekleri ve yan ürünleri arasından kişisel öneriler alın.",
+  title: "Adult X Deneyim Quizi",
+  description: "5 soruda Adult X bebekleri ve yan ürünleri arasından kişisel öneriler alın.",
   path: "/quiz",
 });
 

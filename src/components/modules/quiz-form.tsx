@@ -21,7 +21,7 @@ type QuizQuestion = {
 const quizQuestions: QuizQuestion[] = [
   {
     id: "experience",
-    title: "Adult Z deneyiminden temel beklentiniz nedir?",
+    title: "Adult X deneyiminden temel beklentiniz nedir?",
     options: [
       {
         value: "companionship",

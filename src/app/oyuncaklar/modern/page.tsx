@@ -5,7 +5,7 @@ import { AccessoryCard } from "@/components/modules/accessory-card";
 
 export const metadata: Metadata = buildMetadata({
   title: "Modern Oyuncaklar",
-  description: "Adult Z modern oyuncak koleksiyonu: sessiz mod, su geçirmez ve uygulama entegrasyonlu çözümler.",
+  description: "Adult X modern oyuncak koleksiyonu: sessiz mod, su geçirmez ve uygulama entegrasyonlu çözümler.",
   path: "/oyuncaklar/modern",
 });
 
@@ -20,7 +20,7 @@ export default function ModernAccessoriesPage() {
           Neon Modern Oyuncaklar
         </h1>
         <p className="mt-4 text-sm text-muted">
-          Sessiz titreşim teknolojisi, su geçirmez gövdeler ve Adult Z uygulamasıyla senkron çalışan premium oyuncaklar. Gizli paketleme ve KVKK uyumlu veri işleme standarttır.
+          Sessiz titreşim teknolojisi, su geçirmez gövdeler ve Adult X uygulamasıyla senkron çalışan premium oyuncaklar. Gizli paketleme ve KVKK uyumlu veri işleme standarttır.
         </p>
       </header>
       <div className="mt-12 grid gap-8 md:grid-cols-2 lg:grid-cols-3">

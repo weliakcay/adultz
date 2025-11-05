@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import { buildMetadata } from "@/lib/metadata";
 
 export const metadata: Metadata = buildMetadata({
-  title: "Adult Z Hesabım",
-  description: "Adult Z hesabınızla siparişleri takip edin, gizlilik tercihlerinizi yönetin ve destek geçmişini görün.",
+  title: "Adult X Hesabım",
+  description: "Adult X hesabınızla siparişleri takip edin, gizlilik tercihlerinizi yönetin ve destek geçmişini görün.",
   path: "/hesap",
 });
 
@@ -13,7 +13,7 @@ export default function AccountPage() {
       <header className="text-center">
         <p className="text-xs uppercase tracking-[0.3em] text-muted">Hesap</p>
         <h1 className="mt-3 font-display text-4xl uppercase tracking-[0.3em] text-foreground">
-          Adult Z Hesabı
+          Adult X Hesabı
         </h1>
         <p className="mt-4 text-sm text-muted">
           Bu sayfa üretim aşamasında. Vercel dağıtımı sonrasında Auth sağlayıcınızı bağlayarak sipariş, gizlilik ve kişiselleştirme geçmişini gösterebilirsiniz.

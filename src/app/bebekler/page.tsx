@@ -4,9 +4,9 @@ import { ProductCard, ProductCardCustomizeTeaser } from "@/components/modules/pr
 import { buildMetadata } from "@/lib/metadata";
 
 export const metadata: Metadata = buildMetadata({
-  title: "Adult Z Bebek Koleksiyonu",
+  title: "Adult X Bebek Koleksiyonu",
   description:
-    "Adult Z realistik silikon bebek koleksiyonunu keşfedin. Premium materyaller, gizli teslimat ve kişiselleştirilmiş deneyimler.",
+    "Adult X realistik silikon bebek koleksiyonunu keşfedin. Premium materyaller, gizli teslimat ve kişiselleştirilmiş deneyimler.",
   path: "/bebekler",
 });
 
@@ -19,7 +19,7 @@ export default function DollsPage() {
           Realistik Bebekler
         </h1>
         <p className="mt-4 text-sm text-muted">
-          Her Adult Z bebeği, gizlilik ve güven standartlarımızla üretilen özel persona profillerine sahiptir. Gizli paketleme, isimsiz faturalandırma ve KVKK uyumu varsayılandır.
+          Her Adult X bebeği, gizlilik ve güven standartlarımızla üretilen özel persona profillerine sahiptir. Gizli paketleme, isimsiz faturalandırma ve KVKK uyumu varsayılandır.
         </p>
       </header>
       <div className="mt-12 grid gap-10 lg:grid-cols-2">

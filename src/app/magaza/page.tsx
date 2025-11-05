@@ -3,8 +3,8 @@ import { buildMetadata } from "@/lib/metadata";
 import { NeonButton } from "@/components/ui/neon-button";
 
 export const metadata: Metadata = buildMetadata({
-  title: "Adult Z Mağaza",
-  description: "Adult Z çevrim içi mağazası: güvenli ödeme, gizli paketleme ve kişiselleştirilebilir seçenekler.",
+  title: "Adult X Mağaza",
+  description: "Adult X çevrim içi mağazası: güvenli ödeme, gizli paketleme ve kişiselleştirilebilir seçenekler.",
   path: "/magaza",
 });
 
@@ -29,10 +29,10 @@ export default function StorePage() {
       <header className="text-center">
         <p className="text-xs uppercase tracking-[0.3em] text-muted">Mağaza</p>
         <h1 className="mt-3 font-display text-4xl uppercase tracking-[0.3em] text-foreground">
-          Adult Z Mağaza
+          Adult X Mağaza
         </h1>
         <p className="mt-4 text-sm text-muted">
-          Tüm alışveriş süreci gizlilikle yönetilir. Kredi kartı bilgileriniz ödeme sağlayıcısında şifreli saklanır, Adult Z sunucularında tutulmaz.
+          Tüm alışveriş süreci gizlilikle yönetilir. Kredi kartı bilgileriniz ödeme sağlayıcısında şifreli saklanır, Adult X sunucularında tutulmaz.
         </p>
       </header>
       <div className="mt-12 grid gap-6 sm:grid-cols-3">

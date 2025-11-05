@@ -21,7 +21,7 @@ const faqItems = [
   },
   {
     q: "Verilerim nasıl korunuyor?",
-    a: "Adult Z uygulaması uçtan uca şifreleme kullanır, konuşmalar 24 saat sonra anonimleştirilir.",
+    a: "Adult X uygulaması uçtan uca şifreleme kullanır, konuşmalar 24 saat sonra anonimleştirilir.",
   },
   {
     q: "Bakım hizmeti var mı?",
@@ -34,7 +34,7 @@ const faqItems = [
 ];
 
 export const metadata: Metadata = buildMetadata({
-  title: "Adult Z Sık Sorulan Sorular",
+  title: "Adult X Sık Sorulan Sorular",
   description: "Teslimat, gizlilik, ödeme ve garanti süreçleriyle ilgili sık sorulan sorular.",
   path: "/destek/sss",
 });
@@ -48,7 +48,7 @@ export default function FAQPage() {
           Sık Sorulan Sorular
         </h1>
         <p className="mt-4 text-sm text-muted">
-          Adult Z deneyimi boyunca akla gelebilecek soruları gizlilik, teslimat ve bakım başlıklarında topladık. Daha fazlası için gizli chat ekibimizle görüşebilirsiniz.
+          Adult X deneyimi boyunca akla gelebilecek soruları gizlilik, teslimat ve bakım başlıklarında topladık. Daha fazlası için gizli chat ekibimizle görüşebilirsiniz.
         </p>
       </header>
       <div className="mt-12">

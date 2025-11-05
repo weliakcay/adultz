@@ -28,7 +28,7 @@ export function SiteFooter() {
       <div className="mx-auto grid max-w-6xl gap-10 px-6 py-12 sm:grid-cols-2 lg:grid-cols-4">
         <div className="col-span-full lg:col-span-1">
           <p className="font-display text-xl uppercase tracking-[0.35em] text-foreground">
-            Adult Z
+            Adult X
           </p>
           <p className="mt-4 text-sm text-muted">
             Mahremiyet odaklı, teknoloji destekli gerçeklik deneyimleri. Gizli paketleme ve isimsiz faturalandırma standart.
@@ -76,7 +76,7 @@ export function SiteFooter() {
             ))}
           </ul>
           <div className="mt-6 text-xs text-muted">
-            <p>© {new Date().getFullYear()} Adult Z Labs.</p>
+            <p>© {new Date().getFullYear()} Adult X Labs.</p>
             <p>Gizli lojistik partnerleriyle Türkiye geneli teslimat.</p>
           </div>
         </div>

@@ -71,7 +71,7 @@ export const accessories: ProductAccessory[] = [
     category: "modern",
     price: 2400,
     badges: ["uygulama entegrasyonu", "haptik geri bildirim"],
-    specs: "Adult Z uygulaması ile eşleşir, kişiselleştirilebilir haptik profiller",
+    specs: "Adult X uygulaması ile eşleşir, kişiselleştirilebilir haptik profiller",
     gallery: [
       {
         src: "https://images.unsplash.com/photo-1520256862855-398228c41684",
@@ -181,7 +181,7 @@ export const accessories: ProductAccessory[] = [
     faq: [
       {
         q: "Valiz boyutu nedir?",
-        a: "70x40x30 cm iç hacim, Adult Z bebekleri dik pozda taşır."
+        a: "70x40x30 cm iç hacim, Adult X bebekleri dik pozda taşır."
       },
       {
         q: "Kilit sistemi nasıl çalışır?",

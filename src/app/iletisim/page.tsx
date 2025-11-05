@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import { buildMetadata } from "@/lib/metadata";
 
 export const metadata: Metadata = buildMetadata({
-  title: "Adult Z İletişim",
-  description: "Adult Z destek hattı, gizli chat ve randevulu danışmanlık seçenekleri.",
+  title: "Adult X İletişim",
+  description: "Adult X destek hattı, gizli chat ve randevulu danışmanlık seçenekleri.",
   path: "/iletisim",
 });
 
@@ -31,7 +31,7 @@ export default function ContactPage() {
           Bize Ulaşın
         </h1>
         <p className="mt-4 text-sm text-muted">
-          Adult Z destek ekibi gizli iletişim kanallarıyla hizmet verir. Tüm görüşmeler uçtan uca şifrelenir ve yalnızca destek amaçlı kullanılır.
+          Adult X destek ekibi gizli iletişim kanallarıyla hizmet verir. Tüm görüşmeler uçtan uca şifrelenir ve yalnızca destek amaçlı kullanılır.
         </p>
       </header>
       <div className="mt-12 space-y-4">

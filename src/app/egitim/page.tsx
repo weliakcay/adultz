@@ -12,8 +12,8 @@ const categories: Record<string, string> = {
 };
 
 export const metadata: Metadata = buildMetadata({
-  title: "Adult Z Eğitim Merkezi",
-  description: "Bakım, teknoloji, seçim rehberi ve mahremiyet başlıklarında Adult Z eğitim içerikleri.",
+  title: "Adult X Eğitim Merkezi",
+  description: "Bakım, teknoloji, seçim rehberi ve mahremiyet başlıklarında Adult X eğitim içerikleri.",
   path: "/egitim",
 });
 
@@ -26,7 +26,7 @@ export default function EducationPage() {
           Bilgi Merkezi
         </h1>
         <p className="mt-4 text-sm text-muted">
-          Bakım, güvenlik, teknoloji ve mahremiyet üzerine hazırladığımız rehberlerle Adult Z deneyimini bilinçli şekilde yönetin. Tüm içerikler açık ve güven verici bir dil kullanır; erotik anlatımlar içermez.
+          Bakım, güvenlik, teknoloji ve mahremiyet üzerine hazırladığımız rehberlerle Adult X deneyimini bilinçli şekilde yönetin. Tüm içerikler açık ve güven verici bir dil kullanır; erotik anlatımlar içermez.
         </p>
       </header>
       <section className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">

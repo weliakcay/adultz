@@ -10,18 +10,18 @@ const videos = [
   {
     title: "Gizli Paketleme Nasıl Çalışır?",
     duration: "03:18",
-    description: "Adult Z lojistik zincirinin mahremiyet standartları.",
+    description: "Adult X lojistik zincirinin mahremiyet standartları.",
   },
   {
     title: "Orbit İskelet Esneklik Testi",
     duration: "05:24",
-    description: "Adult Z bebeklerinin dayanıklılık testleri ve dikkat edilmesi gerekenler.",
+    description: "Adult X bebeklerinin dayanıklılık testleri ve dikkat edilmesi gerekenler.",
   },
 ];
 
 export const metadata: Metadata = buildMetadata({
-  title: "Adult Z Eğitim Videoları",
-  description: "Bakım, teknoloji ve lojistik videoları ile Adult Z deneyimine hazırlanın.",
+  title: "Adult X Eğitim Videoları",
+  description: "Bakım, teknoloji ve lojistik videoları ile Adult X deneyimine hazırlanın.",
   path: "/egitim/videolar",
 });
 

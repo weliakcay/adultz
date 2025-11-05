@@ -78,7 +78,7 @@ export function DollDetail({ doll, relatedAccessories }: DollDetailProps) {
           </div>
           <div className="space-y-8">
             <div>
-              <p className="text-xs uppercase tracking-[0.3em] text-muted">Adult Z Persona</p>
+              <p className="text-xs uppercase tracking-[0.3em] text-muted">Adult X Persona</p>
               <h1 className="mt-2 font-display text-4xl uppercase tracking-[0.28em] text-foreground">
                 {doll.name}
               </h1>

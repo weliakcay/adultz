@@ -103,7 +103,7 @@ export const dolls: ProductDoll[] = [
       },
       {
         q: "Garanti süresi ne kadar?",
-        a: "Adult Z bebeklerinde 18 ay üretim garantisi ve ilk 6 ay ücretsiz bakım hizmeti yer alır."
+        a: "Adult X bebeklerinde 18 ay üretim garantisi ve ilk 6 ay ücretsiz bakım hizmeti yer alır."
       }
     ]
   },
@@ -209,7 +209,7 @@ export const dolls: ProductDoll[] = [
       },
       {
         q: "Ses modülleri kişiselleştirilebilir mi?",
-        a: "Adult Z uygulaması üzerinden hazır profilleri düzenleyebilir veya kendi kayıtlarınızı ekleyebilirsiniz."
+        a: "Adult X uygulaması üzerinden hazır profilleri düzenleyebilir veya kendi kayıtlarınızı ekleyebilirsiniz."
       }
     ]
   },

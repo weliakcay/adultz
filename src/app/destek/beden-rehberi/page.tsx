@@ -8,8 +8,8 @@ const bodyMatrix = [
 ];
 
 export const metadata: Metadata = buildMetadata({
-  title: "Adult Z Beden Rehberi",
-  description: "Adult Z bebekleri için boy ve ağırlık karşılaştırmaları, taşıma önerileri ve güvenlik notları.",
+  title: "Adult X Beden Rehberi",
+  description: "Adult X bebekleri için boy ve ağırlık karşılaştırmaları, taşıma önerileri ve güvenlik notları.",
   path: "/destek/beden-rehberi",
 });
 
@@ -22,7 +22,7 @@ export default function BodyGuidePage() {
           Beden Rehberi
         </h1>
         <p className="mt-4 text-sm text-muted">
-          Boy, ağırlık ve taşıma önerileriyle size en uygun Adult Z bebeğini seçin. Tüm ölçüler ±1 cm/±0.5 kg toleransla verilmiştir.
+          Boy, ağırlık ve taşıma önerileriyle size en uygun Adult X bebeğini seçin. Tüm ölçüler ±1 cm/±0.5 kg toleransla verilmiştir.
         </p>
       </header>
       <table className="mt-12 w-full table-fixed border-separate border-spacing-y-4">
@@ -58,7 +58,7 @@ export default function BodyGuidePage() {
           Taşıma Güvenliği
         </h2>
         <ul className="mt-3 list-disc space-y-2 pl-5">
-          <li>Adult Z taşıma kayışını kullanın ve gövdeyi iki noktadan destekleyin.</li>
+          <li>Adult X taşıma kayışını kullanın ve gövdeyi iki noktadan destekleyin.</li>
           <li>Merdiven ve dar alanlarda ek destek isteyin; sessiz tekerlekli Shadow Case önerilir.</li>
           <li>Uzun süreli saklamada iskeleti dinlendirmek için 45° açıyla konumlandırın.</li>
         </ul>

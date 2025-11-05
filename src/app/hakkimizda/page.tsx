@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import { buildMetadata } from "@/lib/metadata";
 
 export const metadata: Metadata = buildMetadata({
-  title: "Adult Z Hakkında",
-  description: "Adult Z ekibi, mahremiyet odaklı tasarım süreci ve etik üretim yaklaşımları.",
+  title: "Adult X Hakkında",
+  description: "Adult X ekibi, mahremiyet odaklı tasarım süreci ve etik üretim yaklaşımları.",
   path: "/hakkimizda",
 });
 
@@ -16,7 +16,7 @@ const pillars = [
   {
     title: "Etik Üretim",
     description:
-      "Silikon ve karbon tedarik zincirimiz sürdürülebilir ve etik sertifikalara sahiptir. Her Adult Z ürünü kalite kontrol testlerinden geçer.",
+      "Silikon ve karbon tedarik zincirimiz sürdürülebilir ve etik sertifikalara sahiptir. Her Adult X ürünü kalite kontrol testlerinden geçer.",
   },
   {
     title: "Teknoloji Studio",
@@ -31,10 +31,10 @@ export default function AboutPage() {
       <header className="text-center">
         <p className="text-xs uppercase tracking-[0.3em] text-muted">Marka</p>
         <h1 className="mt-3 font-display text-4xl uppercase tracking-[0.3em] text-foreground">
-          Adult Z Hakkında
+          Adult X Hakkında
         </h1>
         <p className="mt-4 text-sm text-muted">
-          Mahremiyet, güvenlik ve zarafet üçlüsünü aynı deneyimde buluşturan Adult Z, 2021&#39;den bu yana realistik bebek ve modern oyuncak kategorisini yeniden tasarlıyor.
+          Mahremiyet, güvenlik ve zarafet üçlüsünü aynı deneyimde buluşturan Adult X, 2021&#39;den bu yana realistik bebek ve modern oyuncak kategorisini yeniden tasarlıyor.
         </p>
       </header>
       <section className="mt-12 grid gap-6 md:grid-cols-3">
@@ -55,7 +55,7 @@ export default function AboutPage() {
           Gizlilik Sözümüz
         </h2>
         <p className="mt-4 text-sm text-muted">
-          Adult Z ekibi olarak müşterilerimizin gizliliğini ürün tasarımının merkezine yerleştiriyoruz. Lojistik partnerlerimiz kimlik doğrulamasını yalnızca teslimat anında yapar ve veriler hiçbir sistemde saklanmaz. Destek ekibimiz 7/24 gizli chat ile ulaşılabilir.
+          Adult X ekibi olarak müşterilerimizin gizliliğini ürün tasarımının merkezine yerleştiriyoruz. Lojistik partnerlerimiz kimlik doğrulamasını yalnızca teslimat anında yapar ve veriler hiçbir sistemde saklanmaz. Destek ekibimiz 7/24 gizli chat ile ulaşılabilir.
         </p>
       </section>
     </div>

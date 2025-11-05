@@ -3,9 +3,9 @@ import { OptionPicker } from "@/components/modules/option-picker";
 import { buildMetadata } from "@/lib/metadata";
 
 export const metadata: Metadata = buildMetadata({
-  title: "Kendi Adult Z Bebeğini Tasarla",
+  title: "Kendi Adult X Bebeğini Tasarla",
   description:
-    "Gövde formu, cilt, saç, göz, iskelet ve aksesuar seçenekleriyle Adult Z bebeğinizi 7 adımda kişiselleştirin.",
+    "Gövde formu, cilt, saç, göz, iskelet ve aksesuar seçenekleriyle Adult X bebeğinizi 7 adımda kişiselleştirin.",
   path: "/bebekler/ozellestir",
 });
 
