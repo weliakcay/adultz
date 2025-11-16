@@ -7,9 +7,9 @@ import { clsx } from "clsx";
 import { NeonButton } from "@/components/ui/neon-button";
 
 const navItems = [
-  { href: "/bebekler", label: "Bebekler" },
-  { href: "/oyuncaklar/modern", label: "Modern Oyuncaklar" },
-  { href: "/oyuncaklar/gizli", label: "Gizli Oyuncaklar" },
+  { href: "/bebekler", label: "Silikon Mankenler" },
+  { href: "/oyuncaklar/modern", label: "Aksesuarlar" },
+  { href: "/oyuncaklar/gizli", label: "Cosplay" },
   { href: "/quiz", label: "Quiz" },
   { href: "/egitim", label: "Eğitim" },
   { href: "/destek", label: "Destek" },
@@ -51,7 +51,7 @@ export function SiteHeader() {
         </nav>
         <div className="hidden lg:flex">
           <NeonButton href="/bebekler/ozellestir" size="sm" intensity="purple">
-            Kendi Bebeğini Tasarla
+            Sohbet Botu
           </NeonButton>
         </div>
         <button
@@ -109,7 +109,7 @@ export function SiteHeader() {
               intensity="purple"
               onClick={() => setMobileOpen(false)}
             >
-              Kendi Bebeğini Tasarla
+              Sohbet Botu
             </NeonButton>
           </div>
         </nav>
