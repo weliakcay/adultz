@@ -13,51 +13,21 @@ import { dolls } from '../src/data/dolls';
 
 function convertDollToExcelRow(doll: any) {
   return {
-    slug: doll.slug,
-    name: doll.name,
-    subtitle: doll.subtitle,
-    price: doll.price,
-    leadTimeDays: doll.leadTimeDays,
-
-    personaSummary: doll.persona.summary,
-    personaTraits: doll.persona.traits.join(', '),
-    personaCompatibility: doll.persona.compatibility.join(', '),
-    personaVoice: doll.persona.voice,
-
-    heightCm: doll.specs.heightCm,
-    weightKg: doll.specs.weightKg,
-    material: doll.specs.material,
-    skeleton: doll.specs.skeleton,
-    specOptions: doll.specs.options.join(', '),
-
-    skinTones: doll.options.skinTones.join(', '),
-    hair: doll.options.hair.join(', '),
-    eyes: doll.options.eyes.join(', '),
-    skeletonOptions: doll.options.skeletons ? doll.options.skeletons.join(', ') : '',
-    accessories: doll.options.accessories ? doll.options.accessories.join(', ') : '',
-
+    source: doll.gallery[0]?.src.includes('erotikshoptoptan') ? 'erotikshoptoptan' : 'toptanerotikshop',
+    sku: doll.slug,
+    cleaned_title: doll.name,
+    cleaned_description: doll.subtitle,
+    final_price: doll.price,
+    main_category: 'Silikon Mankenler',
+    sub_category: 'EVO Skeleton',
+    detail_category: `${doll.specs.heightCm}cm`,
+    original_category: 'Realistik Bebekler',
+    stock: 'Stokta',
     image1: doll.gallery[0]?.src || '',
     image2: doll.gallery[1]?.src || '',
     image3: doll.gallery[2]?.src || '',
     image4: doll.gallery[3]?.src || '',
     image5: doll.gallery[4]?.src || '',
-    image6: doll.gallery[5]?.src || '',
-
-    video1: doll.videos[0]?.src || '',
-    video2: doll.videos[1]?.src || '',
-
-    faq1_q: doll.faq[0]?.q || '',
-    faq1_a: doll.faq[0]?.a || '',
-    faq2_q: doll.faq[1]?.q || '',
-    faq2_a: doll.faq[1]?.a || '',
-    faq3_q: doll.faq[2]?.q || '',
-    faq3_a: doll.faq[2]?.a || '',
-    faq4_q: doll.faq[3]?.q || '',
-    faq4_a: doll.faq[3]?.a || '',
-    faq5_q: doll.faq[4]?.q || '',
-    faq5_a: doll.faq[4]?.a || '',
-    faq6_q: doll.faq[5]?.q || '',
-    faq6_a: doll.faq[5]?.a || '',
   };
 }
 
@@ -72,12 +42,12 @@ function main() {
   // Sütun genişlikleri ayarla
   const headers = Object.keys(excelData[0]);
   const columnWidths = headers.map(h => {
-    if (h.startsWith('faq') && h.endsWith('_a')) return { wch: 60 };
-    if (h.startsWith('faq') && h.endsWith('_q')) return { wch: 40 };
-    if (h.startsWith('persona')) return { wch: 50 };
-    if (h.startsWith('image') || h.startsWith('video')) return { wch: 60 };
-    if (h.includes('Options') || h.includes('Tones') || h.includes('hair') || h.includes('eyes')) return { wch: 40 };
-    return { wch: 20 };
+    if (h.startsWith('image')) return { wch: 80 };
+    if (h === 'cleaned_description') return { wch: 50 };
+    if (h === 'cleaned_title') return { wch: 30 };
+    if (h === 'sku' || h === 'source') return { wch: 20 };
+    if (h.includes('category')) return { wch: 25 };
+    return { wch: 15 };
   });
 
   worksheet['!cols'] = columnWidths;

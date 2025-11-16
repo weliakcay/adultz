@@ -11,112 +11,69 @@ import * as fs from 'fs';
 import * as path from 'path';
 
 interface ExcelRow {
-  slug: string;
-  name: string;
-  subtitle: string;
-  price: number;
-  leadTimeDays: number;
-
-  // Persona
-  personaSummary: string;
-  personaTraits: string; // virgülle ayrılmış
-  personaCompatibility: string; // virgülle ayrılmış
-  personaVoice: string;
-
-  // Specs
-  heightCm: number;
-  weightKg: number;
-  material: string;
-  skeleton: string;
-  specOptions: string; // virgülle ayrılmış
-
-  // Options
-  skinTones: string; // virgülle ayrılmış
-  hair: string; // virgülle ayrılmış
-  eyes: string; // virgülle ayrılmış
-  skeletonOptions: string; // virgülle ayrılmış (opsiyonel)
-  accessories: string; // virgülle ayrılmış (opsiyonel)
-
-  // Gallery - 6 resim URL'i
+  source: string;
+  sku: string;
+  cleaned_title: string;
+  cleaned_description: string;
+  final_price: number;
+  main_category: string;
+  sub_category: string;
+  detail_category: string;
+  original_category: string;
+  stock: string;
   image1: string;
   image2: string;
   image3: string;
   image4: string;
   image5: string;
-  image6: string;
-
-  // Videos - 2 video URL'i
-  video1: string;
-  video2: string;
-
-  // FAQ - 6 soru-cevap çifti
-  faq1_q: string;
-  faq1_a: string;
-  faq2_q: string;
-  faq2_a: string;
-  faq3_q: string;
-  faq3_a: string;
-  faq4_q: string;
-  faq4_a: string;
-  faq5_q: string;
-  faq5_a: string;
-  faq6_q: string;
-  faq6_a: string;
-}
-
-function parseCommaSeparated(value: string | undefined): string[] {
-  if (!value || value.trim() === '') return [];
-  return value.split(',').map(s => s.trim()).filter(s => s.length > 0);
 }
 
 function convertRowToDoll(row: ExcelRow) {
+  // Boy bilgisini detail_category'den çıkar (örn: "157cm" -> 157)
+  const heightCm = parseInt(row.detail_category) || 158;
+  const weightKg = heightCm <= 157 ? 38 : heightCm <= 158 ? 41 : 45;
+
   return {
-    slug: row.slug,
-    name: row.name,
-    subtitle: row.subtitle,
-    price: Number(row.price),
+    slug: row.sku,
+    name: row.cleaned_title,
+    subtitle: row.cleaned_description || `${row.cleaned_title} - Premium silikon manken`,
+    price: Number(row.final_price),
     currency: "TRY" as const,
-    leadTimeDays: Number(row.leadTimeDays),
+    leadTimeDays: 28,
     persona: {
-      summary: row.personaSummary,
-      traits: parseCommaSeparated(row.personaTraits),
-      compatibility: parseCommaSeparated(row.personaCompatibility),
-      voice: row.personaVoice
+      summary: row.cleaned_description || `${row.cleaned_title} profesyonel kalite ve detaylı işçilik sunar. Modern teknoloji ile üretilmiş, gerçekçi deneyim için tasarlanmıştır.`,
+      traits: ["Premium kalite", "Gerçekçi detaylar", "Esnek yapı"],
+      compatibility: ["Uzun süreli kullanım", "Kolay bakım", "Güvenli malzeme"],
+      voice: "Yumuşak ve sakinleştirici ton profilleri önerilir."
     },
     specs: {
-      heightCm: Number(row.heightCm),
-      weightKg: Number(row.weightKg),
-      material: row.material,
-      skeleton: row.skeleton,
-      options: parseCommaSeparated(row.specOptions)
+      heightCm,
+      weightKg,
+      material: "Premium TPE (Termoplastik Elastomer) - medikal sınıf",
+      skeleton: "EVO İskelet - omuz, omurga ve bacak esneklik (W pozisyon uyumlu)",
+      options: ["Isıtma sistemi", "3 farklı kanal", "Bakım kiti dahil"]
     },
     options: {
-      skinTones: parseCommaSeparated(row.skinTones),
-      hair: parseCommaSeparated(row.hair),
-      eyes: parseCommaSeparated(row.eyes),
-      ...(row.skeletonOptions && { skeletons: parseCommaSeparated(row.skeletonOptions) }),
-      ...(row.accessories && { accessories: parseCommaSeparated(row.accessories) })
+      skinTones: ["Doğal", "Açık", "Orta"],
+      hair: ["Siyah", "Kahverengi", "Sarı"],
+      eyes: ["Kahverengi", "Mavi", "Yeşil"]
     },
     gallery: [
-      { src: row.image1, alt: `${row.name} görsel 1`, width: 960, height: 1280 },
-      { src: row.image2, alt: `${row.name} görsel 2`, width: 960, height: 1280 },
-      { src: row.image3, alt: `${row.name} görsel 3`, width: 960, height: 1280 },
-      { src: row.image4, alt: `${row.name} görsel 4`, width: 960, height: 1280 },
-      { src: row.image5, alt: `${row.name} görsel 5`, width: 960, height: 1280 },
-      { src: row.image6, alt: `${row.name} görsel 6`, width: 960, height: 1280 }
-    ].filter(img => img.src && img.src.trim() !== ''),
-    videos: [
-      { src: row.video1, alt: `${row.name} video 1`, type: "video/mp4" as const },
-      { src: row.video2, alt: `${row.name} video 2`, type: "video/mp4" as const }
-    ].filter(vid => vid.src && vid.src.trim() !== ''),
+      row.image1 && { src: row.image1, alt: `${row.cleaned_title} görsel 1`, width: 960, height: 1280 },
+      row.image2 && { src: row.image2, alt: `${row.cleaned_title} görsel 2`, width: 960, height: 1280 },
+      row.image3 && { src: row.image3, alt: `${row.cleaned_title} görsel 3`, width: 960, height: 1280 },
+      row.image4 && { src: row.image4, alt: `${row.cleaned_title} görsel 4`, width: 960, height: 1280 },
+      row.image5 && { src: row.image5, alt: `${row.cleaned_title} görsel 5`, width: 960, height: 1280 }
+    ].filter(Boolean),
+    videos: [],
     faq: [
-      { q: row.faq1_q, a: row.faq1_a },
-      { q: row.faq2_q, a: row.faq2_a },
-      { q: row.faq3_q, a: row.faq3_a },
-      { q: row.faq4_q, a: row.faq4_a },
-      { q: row.faq5_q, a: row.faq5_a },
-      { q: row.faq6_q, a: row.faq6_a }
-    ].filter(faq => faq.q && faq.a && faq.q.trim() !== '' && faq.a.trim() !== '')
+      { q: "Ürün nasıl paketlenir?", a: "Tamamen gizli ve isimsiz paketleme ile gönderilir. Dışarıdan içeriği anlaşılmaz." },
+      { q: "Teslimat süresi nedir?", a: "Ortalama 28 gün içinde özel paketleme ile teslim edilir." },
+      { q: "Bakımı nasıl yapılır?", a: "Düzenli temizlik ve özel bakım ürünleri önerilir. Detaylı bakım kılavuzu ürünle birlikte gelir." },
+      { q: "Garanti süresi nedir?", a: "1 yıl üretici garantisi mevcuttur. Üretim hataları garantı kapsar." },
+      { q: "İade politikası nedir?", a: "Hijyen nedeniyle açılmış ürünlerde iade kabul edilmemektedir." },
+      { q: "Hangi ödeme yöntemleri kabul edilir?", a: "Kredi kartı, havale ve kapıda ödeme seçenekleri mevcuttur." }
+    ]
   };
 }
 
