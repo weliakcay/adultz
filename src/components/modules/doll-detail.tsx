@@ -10,6 +10,7 @@ import { PersonaChat } from "@/components/modules/persona-chat";
 import { NeonButton } from "@/components/ui/neon-button";
 import { useToast } from "@/components/providers/use-toast";
 import { StickyCartDrawer } from "@/components/modules/sticky-cart-drawer";
+import { getProxiedImageUrl, getProxiedGallery } from "@/lib/image-utils";
 
 const logistics = [
   {
@@ -45,6 +46,8 @@ export function DollDetail({ doll, relatedAccessories }: DollDetailProps) {
   };
 
   const cover = doll.gallery[0];
+  const coverSrc = getProxiedImageUrl(cover.src);
+  const proxiedGallery = getProxiedGallery(doll.gallery);
 
   return (
     <div className="relative">
@@ -53,7 +56,7 @@ export function DollDetail({ doll, relatedAccessories }: DollDetailProps) {
           <div>
             <div className="relative overflow-hidden rounded-[32px] border border-[rgba(157,78,221,0.25)] bg-[rgba(12,12,20,0.6)]">
               <Image
-                src={cover.src}
+                src={coverSrc}
                 alt={cover.alt}
                 width={960}
                 height={1200}
@@ -72,7 +75,7 @@ export function DollDetail({ doll, relatedAccessories }: DollDetailProps) {
                 360° videolar ve detaylı fotoğraflar gizli depolama ile sunulur.
               </p>
               <div className="mt-6">
-                <MediaGallery media={doll.gallery} videos={doll.videos} />
+                <MediaGallery media={proxiedGallery} videos={doll.videos} />
               </div>
             </div>
           </div>

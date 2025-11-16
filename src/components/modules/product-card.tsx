@@ -4,9 +4,11 @@ import { clsx } from "clsx";
 import type { ProductDoll } from "@/types/content";
 import { NeonButton } from "@/components/ui/neon-button";
 import { PersonaBadge } from "@/components/modules/persona-badge";
+import { getProxiedImageUrl } from "@/lib/image-utils";
 
 export function ProductCard({ doll, index }: { doll: ProductDoll; index: number }) {
   const cover = doll.gallery[0];
+  const coverSrc = getProxiedImageUrl(cover.src);
   return (
     <article
       className={clsx(
@@ -16,7 +18,7 @@ export function ProductCard({ doll, index }: { doll: ProductDoll; index: number 
     >
       <div className="relative aspect-[4/3] overflow-hidden">
         <Image
-          src={cover.src}
+          src={coverSrc}
           alt={cover.alt}
           fill
           className="object-cover object-center"
