@@ -41,7 +41,7 @@ export function Hero() {
             intensity="purple"
             eventName="hero_cta_click"
           >
-            Kendi Bebeğini Tasarla
+            Sohbet Botu
           </NeonButton>
         </div>
         <p className="text-xs text-muted">

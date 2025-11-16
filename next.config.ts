@@ -17,7 +17,15 @@ const nextConfig: NextConfig = {
       },
       {
         protocol: "https",
+        hostname: "www.erotikshoptoptan.com",
+      },
+      {
+        protocol: "https",
         hostname: "toptanerotikshop.com",
+      },
+      {
+        protocol: "https",
+        hostname: "www.toptanerotikshop.com",
       },
     ],
   },

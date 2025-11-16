@@ -86,12 +86,11 @@ export function ProductCard({ doll, index }: { doll: ProductDoll; index: number 
 
 export function ProductCardCustomizeTeaser() {
   return (
-    <Link
-      href="/bebekler/ozellestir"
-      className="group relative flex min-h-[420px] flex-col justify-end overflow-hidden rounded-[32px] border border-dashed border-[rgba(157,78,221,0.3)] bg-[rgba(12,12,20,0.6)] p-8 text-center shadow-[0_30px_90px_rgba(0,0,0,0.55)] transition hover:border-[rgba(255,0,84,0.35)]"
+    <div
+      className="group relative flex min-h-[420px] flex-col justify-end overflow-hidden rounded-[32px] border border-dashed border-[rgba(157,78,221,0.3)] bg-[rgba(12,12,20,0.6)] p-8 text-center shadow-[0_30px_90px_rgba(0,0,0,0.55)] opacity-60"
     >
       <div className="absolute inset-0 bg-gradient-to-br from-[rgba(9,9,15,0.5)] via-transparent to-[rgba(157,78,221,0.3)] blur-2xl" />
-      <div className="absolute inset-0 backdrop-blur group-hover:backdrop-blur-xl" />
+      <div className="absolute inset-0 backdrop-blur" />
       <p className="text-xs uppercase tracking-[0.35em] text-muted">1 Ayda Teslim</p>
       <h3 className="relative mt-6 font-display text-3xl uppercase tracking-[0.3em] text-foreground">
         Kendi Bebeğini Tasarla
@@ -99,15 +98,12 @@ export function ProductCardCustomizeTeaser() {
       <p className="relative mt-4 text-sm text-muted">
         Tamamen size özel persona, fiziksel özellikler ve aksesuar seti oluşturun.
       </p>
-      <NeonButton
-        href="/bebekler/ozellestir"
-        size="md"
-        intensity="pink"
-        className="relative mx-auto mt-6 text-[0.7rem]"
-        eventName="customize_start"
+      <button
+        disabled
+        className="relative mx-auto mt-6 rounded-full border border-[rgba(157,78,221,0.3)] bg-[rgba(12,12,20,0.6)] px-6 py-3 text-[0.7rem] uppercase tracking-[0.2em] text-muted cursor-not-allowed"
       >
-        Başla
-      </NeonButton>
-    </Link>
+        Yakında
+      </button>
+    </div>
   );
 }
