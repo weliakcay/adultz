@@ -2,405 +2,399 @@ import type { ProductDoll } from "@/types/content";
 
 export const dolls: ProductDoll[] = [
   {
-    "slug": "aurora-neon",
-    "name": "Aurora Neon",
-    "subtitle": "Zarif gece hikâyeleri için dengeli enerji",
-    "price": 74500,
-    "currency": "TRY",
-    "leadTimeDays": 32,
-    "persona": {
-      "summary": "Aurora, kararlı ve sıcak bir arkadaşlık deneyimi arayanlar için tasarlandı. Neon dokunuşlarla yumuşak bir temas sunuyor.",
-      "traits": [
-        "Sıcak karşılayıcı",
-        "Gece odaklı",
-        "Dengeli ritim"
-      ],
-      "compatibility": [
-        "Yavaş keşif",
-        "Rutin arayanlar",
-        "Gizlilik odaklı bireyler"
-      ],
-      "voice": "Sesli asistan önerilerinde güvende hissedeceğiniz net ve yumuşak bir ton öneriyoruz."
+    slug: "kelly-evo",
+    name: "Kelly Evo",
+    subtitle: "Zarif duruş ve dinamik esneklik - EVO İskelet teknolojisi",
+    price: 108199,
+    currency: "TRY",
+    leadTimeDays: 28,
+    persona: {
+      summary: "Kelly, modern yaşam tarzına uyum sağlayan zarif ve dinamik bir deneyim sunar. EVO iskelet teknolojisiyle doğal hareketler ve uzun süreli pozisyonlar için tasarlandı.",
+      traits: ["Zarif duruş", "Esnek pozlar", "Dengeli yapı"],
+      compatibility: ["Modern yaşam", "Uzun süreli kullanım", "Değişken pozisyonlar"],
+      voice: "Kelly için yumuşak ve sakinleştirici ton profilleri önerilir."
     },
-    "specs": {
-      "heightCm": 165,
-      "weightKg": 38,
-      "material": "Premium medikal sınıf silikon + jel dolgulu form",
-      "skeleton": "Karbon destekli esnek iskelet (320° eklem açıklığı)",
-      "options": [
-        "Isıtmalı gövde",
-        "Nabız simülasyonu",
-        "Uyku modu"
-      ]
+    specs: {
+      heightCm: 157,
+      weightKg: 38,
+      material: "Premium TPE (Termoplastik Elastomer) - medikal sınıf",
+      skeleton: "EVO İskelet - omuz, omurga ve bacak esnekliği (W pozisyon uyumlu)",
+      options: ["Isıtma sistemi", "3 farklı kanal", "Bakım kiti dahil"]
     },
-    "options": {
-      "skinTones": [
-        "Opal",
-        "Gece Gül",
-        "Mercan Parıltı"
-      ],
-      "hair": [
-        "Safran dalgalar",
-        "Grafit kısa",
-        "Orbital bob"
-      ],
-      "eyes": [
-        "Kobalt",
-        "Amber",
-        "Leylak"
-      ],
-      "skeletons": [
-        "Standart esnek",
-        "Dans modülü"
-      ],
-      "accessories": [
-        "Neon serisi bakımı",
-        "Gece bakım kiti"
-      ]
+    options: {
+      skinTones: ["Doğal Ten", "Opal", "Karamel"],
+      hair: ["Uzun kahve", "Kısa sarı", "Dalga kızıl"],
+      eyes: ["Kahverengi", "Ela", "Gri"],
+      skeletons: ["EVO Standart", "EVO Esnek Plus"],
+      accessories: ["Premium bakım seti", "Isıtıcı modül", "Temizlik kiti"]
     },
-    "gallery": [
-      {
-        "src": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1",
-        "alt": "Aurora Neon görsel 1",
-        "width": 960,
-        "height": 1280
-      },
-      {
-        "src": "https://images.unsplash.com/photo-1521579971123-1192931a1452",
-        "alt": "Aurora Neon görsel 2",
-        "width": 960,
-        "height": 1280
-      },
-      {
-        "src": "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5",
-        "alt": "Aurora Neon görsel 3",
-        "width": 960,
-        "height": 1280
-      },
-      {
-        "src": "https://images.unsplash.com/photo-1531297484001-80022131f5a1",
-        "alt": "Aurora Neon görsel 4",
-        "width": 960,
-        "height": 1280
-      },
-      {
-        "src": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-        "alt": "Aurora Neon görsel 5",
-        "width": 960,
-        "height": 1280
-      },
-      {
-        "src": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1",
-        "alt": "Aurora Neon görsel 6",
-        "width": 960,
-        "height": 1280
-      }
+    gallery: [
+      { src: "https://www.erotikshoptoptan.com/images/urunler/kelly---evo-skeleton-sex-doll-iskeletli-tam-realistik-manken-157-resim-1621.jpg", alt: "Kelly Evo görsel 1", width: 960, height: 1280 },
+      { src: "https://www.erotikshoptoptan.com/images/urunler/kelly---evo-skeleton-sex-doll-iskeletli-tam-realistik-manken-157-resim2-1621.jpg", alt: "Kelly Evo görsel 2", width: 960, height: 1280 },
+      { src: "https://www.erotikshoptoptan.com/images/urunler/kelly---evo-skeleton-sex-doll-iskeletli-tam-realistik-manken-157-resim3-1621.jpg", alt: "Kelly Evo görsel 3", width: 960, height: 1280 },
+      { src: "https://www.erotikshoptoptan.com/images/urunler/kelly---evo-skeleton-sex-doll-iskeletli-tam-realistik-manken-157-resim4-1621.jpg", alt: "Kelly Evo görsel 4", width: 960, height: 1280 },
+      { src: "https://www.erotikshoptoptan.com/images/urunler/kelly---evo-skeleton-sex-doll-iskeletli-tam-realistik-manken-157-resim5-1621.jpg", alt: "Kelly Evo görsel 5", width: 960, height: 1280 }
     ],
-    "videos": [
-      {
-        "src": "https://cdn.coverr.co/videos/coverr-night-pool-5064/1080p.mp4",
-        "alt": "Aurora Neon video 1",
-        "type": "video/mp4"
-      },
-      {
-        "src": "https://cdn.coverr.co/videos/coverr-digital-woman-8615/1080p.mp4",
-        "alt": "Aurora Neon video 2",
-        "type": "video/mp4"
-      }
-    ],
-    "faq": [
-      {
-        "q": "Gizli paketleme nasıl sağlanıyor?",
-        "a": "Aurora Neon, içeriği belli etmeyen çift katmanlı kutuda ve isimsiz fatura ile gönderilir."
-      },
-      {
-        "q": "Bakım rutini ne kadar sürüyor?",
-        "a": "Haftalık hafif temizlik 10 dakika sürer. Bakım kitinde sabunsuz solüsyon ve mikrofiber bez yer alır."
-      },
-      {
-        "q": "Isıtmalı gövde seçeneği güvenli mi?",
-        "a": "Tüm ısıtma modülleri CE sertifikalıdır ve 40°C üstüne çıkmaz. Otomatik kapanma 20 dakikadır."
-      },
-      {
-        "q": "Teslim süreci nasıl işler?",
-        "a": "Kurye, teslimat öncesi SMS ile randevu alır. Paketi kapıda kontrol etmeniz için 10 dakika bekler."
-      },
-      {
-        "q": "Ödeme seçenekleri neler?",
-        "a": "3D Secure destekli kredi kartı, havale ve seçili bankalarda 6 taksit opsiyonu bulunur."
-      },
-      {
-        "q": "Garanti süresi ne kadar?",
-        "a": "Adult X bebeklerinde 18 ay üretim garantisi ve ilk 6 ay ücretsiz bakım hizmeti yer alır."
-      }
+    videos: [],
+    faq: [
+      { q: "EVO İskelet sistemi ne işe yarar?", a: "EVO iskelet, omuz silkme, omurga esnekliği ve W pozisyon gibi doğal hareketlere olanak tanır. Bebeğiniz daha gerçekçi pozlar alabilir." },
+      { q: "Paket içeriğinde neler var?", a: "Kelly tam makyajlı, iç çamaşırı, ısıtıcı modül, temizlik kiti, eldiven ve tarak ile birlikte gelir." },
+      { q: "Bakım nasıl yapılmalı?", a: "Kullanım sonrası ılık su ve özel temizleyici ile temizleme, ardından pudralama önerilir. Detaylı kılavuz ürün ile birlikte gelir." },
+      { q: "Gizli teslimat yapılıyor mu?", a: "Evet, isimsiz paketleme ve gizli kargo ile teslim edilir. Fatura üzerinde ürün adı belirtilmez." },
+      { q: "Garanti süresi ne kadar?", a: "Adult X bebeklerinde 18 ay üretim garantisi ve ilk 6 ay ücretsiz bakım hizmeti yer alır." },
+      { q: "Isıtma sistemi güvenli mi?", a: "Tüm ısıtma modülleri CE sertifikalıdır, 40°C'yi geçmez ve 20 dakika sonra otomatik kapanır." }
     ]
   },
   {
-    "slug": "luna-serenity",
-    "name": "Luna Serenity",
-    "subtitle": "Hafiflik ve mindfulness odaklı gece ritmi",
-    "price": 81200,
-    "currency": "TRY",
-    "leadTimeDays": 28,
-    "persona": {
-      "summary": "Luna, sakinleştirici rutinlere eşlik etmek için geliştirildi. Sessiz dokunuş teknolojisiyle nefes ritmini takip eder.",
-      "traits": [
-        "Meditatif",
-        "Yumuşak aktarım",
-        "Düşük bakım"
-      ],
-      "compatibility": [
-        "Mindfulness pratiği",
-        "Uyku desteği",
-        "Seyahat eden profesyoneller"
-      ],
-      "voice": "Luna için hafif titreşimli ses ile gece modunda beyaz gürültü öneriyoruz."
+    slug: "lara-premium",
+    name: "Lara Premium",
+    subtitle: "Tam silikon lüks ve profesyonel deneyim - 168cm",
+    price: 108399,
+    currency: "TRY",
+    leadTimeDays: 30,
+    persona: {
+      summary: "Lara, tam silikon yapısı ve profesyonel kalitesiyle lüks bir deneyim arayanlar için tasarlandı. Gövde ısıtma ve bacak ayırma sistemi ile maksimum gerçekçilik sunar.",
+      traits: ["Lüks his", "Profesyonel kalite", "Uzun ömürlü"],
+      compatibility: ["Lüks arayanlar", "Profesyonel kullanım", "Koleksiyonerler"],
+      voice: "Lara için zarif ve sofistike ton profilleri önerilir."
     },
-    "specs": {
-      "heightCm": 158,
-      "weightKg": 34,
-      "material": "Saten dokulu silikon + hafıza köpüğü hibrit",
-      "skeleton": "Sessiz mafsal teknolojisi, yoga uyumlu esneklik",
-      "options": [
-        "Nefes ritmi eşleştirme",
-        "Uyku takibi",
-        "Günlük bakım bildirimi"
-      ]
+    specs: {
+      heightCm: 168,
+      weightKg: 45,
+      material: "Tam Silikon (baş + gövde) - premium medikal sınıf",
+      skeleton: "Metal iskelet + bacak ayırma (leg split) sistemi",
+      options: ["Gövde ısıtma", "Bacak ayırma", "Premium silikon"]
     },
-    "options": {
-      "skinTones": [
-        "Ay Işığı",
-        "Şampanya",
-        "Sedef"
-      ],
-      "hair": [
-        "Kutup sarısı",
-        "Kestane dalga",
-        "Gölge kahve"
-      ],
-      "eyes": [
-        "Gri kuvars",
-        "Deniz",
-        "Lavanta"
-      ],
-      "skeletons": [
-        "Sessiz denge",
-        "Dinamik esneklik"
-      ],
-      "accessories": [
-        "Uyku seremonisi kiti",
-        "Refleks masaj başlığı"
-      ]
+    options: {
+      skinTones: ["Porselen", "Doğal", "Sıcak Ten"],
+      hair: ["Uzun düz siyah", "Orta boy kahve", "Kısa platin"],
+      eyes: ["Siyah", "Kahverengi", "Mavi"],
+      skeletons: ["Standart metal", "Esnek metal plus"],
+      accessories: ["Lüks bakım seti", "Gövde ısıtıcı", "Premium temizlik kiti"]
     },
-    "gallery": [
-      {
-        "src": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c",
-        "alt": "Luna Serenity görsel 1",
-        "width": 960,
-        "height": 1280
-      },
-      {
-        "src": "https://images.unsplash.com/photo-1495555687392-e002b5f236c9",
-        "alt": "Luna Serenity görsel 2",
-        "width": 960,
-        "height": 1280
-      },
-      {
-        "src": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f",
-        "alt": "Luna Serenity görsel 3",
-        "width": 960,
-        "height": 1280
-      },
-      {
-        "src": "https://images.unsplash.com/photo-1556817411-31ae72fa3ea0",
-        "alt": "Luna Serenity görsel 4",
-        "width": 960,
-        "height": 1280
-      },
-      {
-        "src": "https://images.unsplash.com/photo-1542204637-e67bc7d41e28",
-        "alt": "Luna Serenity görsel 5",
-        "width": 960,
-        "height": 1280
-      },
-      {
-        "src": "https://images.unsplash.com/photo-1526318896980-cf78c088247c",
-        "alt": "Luna Serenity görsel 6",
-        "width": 960,
-        "height": 1280
-      }
+    gallery: [
+      { src: "https://toptanerotikshop.com/wp-content/uploads/2025/11/5248.jpg", alt: "Lara Premium görsel 1", width: 960, height: 1280 },
+      { src: "https://toptanerotikshop.com/wp-content/uploads/2025/11/5249.jpg", alt: "Lara Premium görsel 2", width: 960, height: 1280 },
+      { src: "https://toptanerotikshop.com/wp-content/uploads/2025/11/5250.jpg", alt: "Lara Premium görsel 3", width: 960, height: 1280 },
+      { src: "https://toptanerotikshop.com/wp-content/uploads/2025/11/5251.jpg", alt: "Lara Premium görsel 4", width: 960, height: 1280 },
+      { src: "https://toptanerotikshop.com/wp-content/uploads/2025/11/5252.jpg", alt: "Lara Premium görsel 5", width: 960, height: 1280 }
     ],
-    "videos": [
-      {
-        "src": "https://cdn.coverr.co/videos/coverr-floating-lights-9985/1080p.mp4",
-        "alt": "Luna Serenity video 1",
-        "type": "video/mp4"
-      },
-      {
-        "src": "https://cdn.coverr.co/videos/coverr-nighttime-lights-4237/1080p.mp4",
-        "alt": "Luna Serenity video 2",
-        "type": "video/mp4"
-      }
-    ],
-    "faq": [
-      {
-        "q": "Günlük bakım gerekli mi?",
-        "a": "Luna Serenity düşük bakım gerektirir. Haftada bir yüzey temizliği yeterlidir."
-      },
-      {
-        "q": "Uyku takibi hangi verileri sunar?",
-        "a": "Nefes, temas süresi ve sıcaklık verilerini anonim şekilde raporlar. Veriler KVKK kapsamında şifrelenir."
-      },
-      {
-        "q": "Seyahat ederken nasıl paketlemeliyim?",
-        "a": "Katlanabilir taşıma çantası ve gizli kaplama ile kabin uyumlu boyuttadır."
-      },
-      {
-        "q": "Garanti kapsamına neler dahil?",
-        "a": "Silikon yüzey kusurları, iskelet mekanizması ve elektronik modüller 18 ay garantilidir."
-      },
-      {
-        "q": "Ödeme planı sunuyor musunuz?",
-        "a": "Seçili bankalarda 9 aya varan taksit planı ve kişiye özel finansman seçenekleri bulunur."
-      },
-      {
-        "q": "Ses modülleri kişiselleştirilebilir mi?",
-        "a": "Adult X uygulaması üzerinden hazır profilleri düzenleyebilir veya kendi kayıtlarınızı ekleyebilirsiniz."
-      }
+    videos: [],
+    faq: [
+      { q: "Tam silikon neden önemli?", a: "Tam silikon, TPE'ye göre daha dayanıklı, daha gerçekçi doku ve daha kolay temizlik sağlar. Premium deneyim arayanlar için idealdir." },
+      { q: "Gövde ısıtma nasıl çalışır?", a: "Güç kaynağına bağlandığında gövdeyi ılık ten hissine (36-40°C) yaklaştırır. CE sertifikalı ve otomatik kapanma özelliği vardır." },
+      { q: "Bacak ayırma sistemi ne işe yarar?", a: "Farklı oturma, diz çökme ve yana açılma pozları için bacakların bağımsız hareket etmesini sağlar." },
+      { q: "Ağırlığı taşıması zor mu?", a: "45 kg ağırlığı ile orta seviye. Metal iskelet sayesinde dengeli ve taşıması kolaydır." },
+      { q: "Fotoğraf çekimi için uygun mu?", a: "Evet, profesyonel vitrin, fotoğraf ve özel kullanım için tasarlanmıştır." },
+      { q: "Garanti kapsamı nedir?", a: "Adult X bebeklerinde 18 ay üretim garantisi, silikon yüzey ve iskelet mekanizması dahildir." }
     ]
   },
   {
-    "slug": "maya-pulse",
-    "name": "Maya Pulse",
-    "subtitle": "Aktif yaşam ritmine uyumlu dinamik persona",
-    "price": 78900,
-    "currency": "TRY",
-    "leadTimeDays": 30,
-    "persona": {
-      "summary": "Maya Pulse, hareketli günlere adapte olan dinamik bir partnerdir. Dayanıklı silikon kaplama ve spor uyumlu eklemler içerir.",
-      "traits": [
-        "Yüksek enerji",
-        "Sosyal uyum",
-        "Eğitilebilir ritim"
-      ],
-      "compatibility": [
-        "Aktif yaşam",
-        "Teknoloji meraklıları",
-        "Günlük program sevenler"
-      ],
-      "voice": "Maya için ritmik, enerjik ama aynı zamanda sakinleştirici ton setleri öneriliyor."
+    slug: "quinn-evo",
+    name: "Quinn Evo",
+    subtitle: "Dolgun formlar ve yumuşak dokulu TPE teknolojisi",
+    price: 110399,
+    currency: "TRY",
+    leadTimeDays: 28,
+    persona: {
+      summary: "Quinn, dolgun formu ve yumuşak TPE dokusuyla gerçekçi bir deneyim arayanlar için ideal. EVO iskelet sistemi ile tüm pozisyonlarda rahat kullanım sağlar.",
+      traits: ["Dolgun form", "Yumuşak doku", "Gerçekçi his"],
+      compatibility: ["Dolgun formu sevenler", "TPE tercihi olanlar", "Rahat kullanım arayanlar"],
+      voice: "Quinn için sıcak ve samimi ton profilleri önerilir."
     },
-    "specs": {
-      "heightCm": 172,
-      "weightKg": 40,
-      "material": "Karbon fiber destekli silikon + kas hissi katmanı",
-      "skeleton": "360° pozlanabilir atletik şasi",
-      "options": [
-        "Aktif mod sensörü",
-        "Senkron ritim",
-        "Hızlı bakım paketi"
-      ]
+    specs: {
+      heightCm: 158,
+      weightKg: 41,
+      material: "Premium TPE (Termoplastik Elastomer) - ultra yumuşak",
+      skeleton: "EVO İskelet - tam vücut esnekliği",
+      options: ["Isıtma sistemi", "3 farklı kanal", "Bakım kiti dahil"]
     },
-    "options": {
-      "skinTones": [
-        "Siber bronz",
-        "Atlas",
-        "Gece bakırı"
-      ],
-      "hair": [
-        "Kısa platin",
-        "Uzun kızıl",
-        "Koyu ombre"
-      ],
-      "eyes": [
-        "Elektrik",
-        "Işık",
-        "Karamel"
-      ],
-      "skeletons": [
-        "Atletik",
-        "Stüdyo"
-      ],
-      "accessories": [
-        "Spor destek kiti",
-        "Enerji bakım spreyleri"
-      ]
+    options: {
+      skinTones: ["Doğal", "Bal Rengi", "Bronz"],
+      hair: ["Uzun sarı", "Orta kızıl", "Kısa kahve"],
+      eyes: ["Mavi", "Yeşil", "Kahverengi"],
+      skeletons: ["EVO Standart", "EVO Plus"],
+      accessories: ["Premium bakım seti", "Isıtıcı modül", "Temizlik kiti"]
     },
-    "gallery": [
-      {
-        "src": "https://images.unsplash.com/photo-1475180098004-ca77a66827be",
-        "alt": "Maya Pulse görsel 1",
-        "width": 960,
-        "height": 1280
-      },
-      {
-        "src": "https://images.unsplash.com/photo-1544723795-3fb6469f5b39",
-        "alt": "Maya Pulse görsel 2",
-        "width": 960,
-        "height": 1280
-      },
-      {
-        "src": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f",
-        "alt": "Maya Pulse görsel 3",
-        "width": 960,
-        "height": 1280
-      },
-      {
-        "src": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-        "alt": "Maya Pulse görsel 4",
-        "width": 960,
-        "height": 1280
-      },
-      {
-        "src": "https://images.unsplash.com/photo-1494955464529-790512c65305",
-        "alt": "Maya Pulse görsel 5",
-        "width": 960,
-        "height": 1280
-      },
-      {
-        "src": "https://images.unsplash.com/photo-1521579971123-1192931a1452",
-        "alt": "Maya Pulse görsel 6",
-        "width": 960,
-        "height": 1280
-      }
+    gallery: [
+      { src: "https://www.erotikshoptoptan.com/images/urunler/quinn---evo-skeleton-sex-doll-iskeletli-tam-realistik-manken-158-resim-1622.jpg", alt: "Quinn Evo görsel 1", width: 960, height: 1280 },
+      { src: "https://www.erotikshoptoptan.com/images/urunler/quinn---evo-skeleton-sex-doll-iskeletli-tam-realistik-manken-158-resim2-1622.jpg", alt: "Quinn Evo görsel 2", width: 960, height: 1280 },
+      { src: "https://www.erotikshoptoptan.com/images/urunler/quinn---evo-skeleton-sex-doll-iskeletli-tam-realistik-manken-158-resim3-1622.jpg", alt: "Quinn Evo görsel 3", width: 960, height: 1280 },
+      { src: "https://www.erotikshoptoptan.com/images/urunler/quinn---evo-skeleton-sex-doll-iskeletli-tam-realistik-manken-158-resim4-1622.jpg", alt: "Quinn Evo görsel 4", width: 960, height: 1280 },
+      { src: "https://www.erotikshoptoptan.com/images/urunler/quinn---evo-skeleton-sex-doll-iskeletli-tam-realistik-manken-158-resim5-1622.jpg", alt: "Quinn Evo görsel 5", width: 960, height: 1280 }
     ],
-    "videos": [
-      {
-        "src": "https://cdn.coverr.co/videos/coverr-dancing-neon-3008/1080p.mp4",
-        "alt": "Maya Pulse video 1",
-        "type": "video/mp4"
-      },
-      {
-        "src": "https://cdn.coverr.co/videos/coverr-futuristic-lights-9114/1080p.mp4",
-        "alt": "Maya Pulse video 2",
-        "type": "video/mp4"
-      }
+    videos: [],
+    faq: [
+      { q: "TPE malzeme avantajları nelerdir?", a: "TPE, silikondan daha yumuşak ve gerçekçi bir ten hissi verir. Esnek yapısı sayesinde rahat kullanım sağlar." },
+      { q: "Temizlik kolay mı?", a: "Evet, ılık su ve özel temizleyici ile kolayca temizlenebilir. Pudralama ile yüzey koruması önerilir." },
+      { q: "EVO iskelet ne gibi avantajlar sağlar?", a: "Omuz hareketleri, omurga esnekliği ve bacak bükülmesi gibi doğal pozlara imkan tanır." },
+      { q: "Ürün makyajlı mı geliyor?", a: "Evet, Quinn tam makyajlı ve iç çamaşırı ile birlikte gönderilir." },
+      { q: "Gizlilik garantisi var mı?", a: "Kesinlikle. İsimsiz paketleme ve gizli kargo ile teslimat yapılır." },
+      { q: "Garanti süresi nedir?", a: "Adult X bebeklerinde 18 ay üretim garantisi ve ilk 6 ay ücretsiz bakım desteği sunulur." }
+    ]
+  },
+  {
+    slug: "hannah-evo",
+    name: "Hannah Evo",
+    subtitle: "Zarafet ve doğal güzellik bir arada",
+    price: 110399,
+    currency: "TRY",
+    leadTimeDays: 28,
+    persona: {
+      summary: "Hannah, zarafeti ve doğal güzelliği bir araya getiren ideal bir seçim. EVO iskelet yapısı ile uzun süreli kullanım konforu ve estetik görünüm sunar.",
+      traits: ["Zarif görünüm", "Doğal güzellik", "Konforlu kullanım"],
+      compatibility: ["Estetik arayanlar", "Uzun süreli kullanım", "Doğallık sevenler"],
+      voice: "Hannah için yumuşak ve doğal ton profilleri önerilir."
+    },
+    specs: {
+      heightCm: 158,
+      weightKg: 41,
+      material: "Premium TPE - son teknoloji yumuşak doku",
+      skeleton: "EVO İskelet - tam vücut esnekliği ve denge",
+      options: ["Isıtma sistemi", "3 farklı kanal", "Bakım kiti dahil"]
+    },
+    options: {
+      skinTones: ["Açık Ten", "Doğal", "Buğday"],
+      hair: ["Uzun düz", "Dalgalı orta", "Kısa modern"],
+      eyes: ["Ela", "Kahverengi", "Yeşil"],
+      skeletons: ["EVO Standart", "EVO Esnek"],
+      accessories: ["Premium bakım seti", "Isıtıcı modül", "Temizlik kiti"]
+    },
+    gallery: [
+      { src: "https://www.erotikshoptoptan.com/images/urunler/hannah---evo-skeleton-sex-doll-iskeletli-tam-realistik-manken-15-resim-1623.jpg", alt: "Hannah Evo görsel 1", width: 960, height: 1280 },
+      { src: "https://www.erotikshoptoptan.com/images/urunler/hannah---evo-skeleton-sex-doll-iskeletli-tam-realistik-manken-15-resim2-1623.jpg", alt: "Hannah Evo görsel 2", width: 960, height: 1280 },
+      { src: "https://www.erotikshoptoptan.com/images/urunler/hannah---evo-skeleton-sex-doll-iskeletli-tam-realistik-manken-15-resim3-1623.jpg", alt: "Hannah Evo görsel 3", width: 960, height: 1280 },
+      { src: "https://www.erotikshoptoptan.com/images/urunler/hannah---evo-skeleton-sex-doll-iskeletli-tam-realistik-manken-15-resim4-1623.jpg", alt: "Hannah Evo görsel 4", width: 960, height: 1280 },
+      { src: "https://www.erotikshoptoptan.com/images/urunler/hannah---evo-skeleton-sex-doll-iskeletli-tam-realistik-manken-15-resim5-1623.jpg", alt: "Hannah Evo görsel 5", width: 960, height: 1280 }
     ],
-    "faq": [
-      {
-        "q": "Aktif mod sensörü nasıl çalışır?",
-        "a": "Temas yoğunluğunu algılar ve titreşim profilini otomatik ayarlar. Tüm veriler cihaz üzerinde şifreli saklanır."
-      },
-      {
-        "q": "Teslim sırasında montaj gerekiyor mu?",
-        "a": "Maya Pulse, kurulum gerektirmeyen hazır formda gelir. Yalnızca taşıma bloğunu çıkarmanız yeterlidir."
-      },
-      {
-        "q": "Bakım frekansı nedir?",
-        "a": "Aktif kullanımda iki haftada bir bakım spreyi öneriyoruz. Paket içerisine dahil edilmiştir."
-      },
-      {
-        "q": "Garanti şartları neler?",
-        "a": "İskelet ve silikon yapıda üretim kaynaklı hatalar 24 ay garantilidir."
-      },
-      {
-        "q": "Teslimat sırasında kimlik gerekiyor mu?",
-        "a": "Kuryemiz yaş doğrulaması için kimlik göstermenizi isteyebilir ancak bilgiler kayıt altında tutulmaz."
-      },
-      {
-        "q": "İade koşulları nasıl işliyor?",
-        "a": "Hijyen bandı açılmamış ürünler 14 gün içerisinde koşulsuz iade edilebilir."
-      }
+    videos: [],
+    faq: [
+      { q: "Hannah'nın öne çıkan özellikleri nelerdir?", a: "Zarif görünümü, doğal güzelliği ve uzun süreli konforlu kullanım imkanı sunar." },
+      { q: "Bakım kiti neler içerir?", a: "Temizlik solüsyonu, mikrofiber bez, pudra, eldiven ve detaylı kullanım kılavuzu içerir." },
+      { q: "EVO iskelet sistemi standart iskeletten farkı nedir?", a: "EVO iskelet, omuz silkme, omurga esnekliği ve W pozisyon gibi gelişmiş hareketlere olanak tanır." },
+      { q: "Isıtma modülü opsiyonel mi?", a: "Hayır, ısıtma modülü paket içeriğine dahildir ve güvenli kullanım için CE sertifikalıdır." },
+      { q: "Teslimat süresi ne kadar?", a: "Ortalama 28 gün içinde gizli paketleme ile teslim edilir." },
+      { q: "İade politikası nedir?", a: "Hijyen bandı açılmamış ürünler 14 gün içinde koşulsuz iade edilebilir." }
+    ]
+  },
+  {
+    slug: "lucia-evo",
+    name: "Lucia Evo",
+    subtitle: "Akdeniz güzelliği ve sıcak energia",
+    price: 110399,
+    currency: "TRY",
+    leadTimeDays: 28,
+    persona: {
+      summary: "Lucia, Akdeniz güzelliğini ve sıcak enerjisini bir araya getiren benzersiz bir deneyim sunar. Canlı kişiliği ve dinamik yapısıyla her anınıza eşlik eder.",
+      traits: ["Sıcak energia", "Canlı kişilik", "Akdeniz güzelliği"],
+      compatibility: ["Enerjik bireyler", "Sıcak kişilik arayanlar", "Akdeniz estetiği sevenler"],
+      voice: "Lucia için canlı ve enerjik ton profilleri önerilir."
+    },
+    specs: {
+      heightCm: 158,
+      weightKg: 41,
+      material: "Premium TPE - ultra yumuşak Akdeniz teni",
+      skeleton: "EVO İskelet - dinamik hareket sistemi",
+      options: ["Isıtma sistemi", "3 farklı kanal", "Bakım kiti dahil"]
+    },
+    options: {
+      skinTones: ["Akdeniz Bronzu", "Sıcak Ten", "Altın Ton"],
+      hair: ["Uzun koyu", "Dalgalı kahve", "Kısa siyah"],
+      eyes: ["Koyu kahve", "Siyah", "Ela"],
+      skeletons: ["EVO Standart", "EVO Dinamik"],
+      accessories: ["Premium bakım seti", "Isıtıcı modül", "Temizlik kiti"]
+    },
+    gallery: [
+      { src: "https://www.erotikshoptoptan.com/images/urunler/lucia---evo-skeleton-sex-doll-iskeletli-tam-realistik-manken-158-resim-1624.jpg", alt: "Lucia Evo görsel 1", width: 960, height: 1280 },
+      { src: "https://www.erotikshoptoptan.com/images/urunler/lucia---evo-skeleton-sex-doll-iskeletli-tam-realistik-manken-158-resim2-1624.jpg", alt: "Lucia Evo görsel 2", width: 960, height: 1280 },
+      { src: "https://www.erotikshoptoptan.com/images/urunler/lucia---evo-skeleton-sex-doll-iskeletli-tam-realistik-manken-158-resim3-1624.jpg", alt: "Lucia Evo görsel 3", width: 960, height: 1280 },
+      { src: "https://www.erotikshoptoptan.com/images/urunler/lucia---evo-skeleton-sex-doll-iskeletli-tam-realistik-manken-158-resim4-1624.jpg", alt: "Lucia Evo görsel 4", width: 960, height: 1280 },
+      { src: "https://www.erotikshoptoptan.com/images/urunler/lucia---evo-skeleton-sex-doll-iskeletli-tam-realistik-manken-158-resim5-1624.jpg", alt: "Lucia Evo görsel 5", width: 960, height: 1280 }
+    ],
+    videos: [],
+    faq: [
+      { q: "Lucia'nın Akdeniz teni nedir?", a: "Özel olarak formüle edilmiş bronz tonlu TPE malzeme ile doğal Akdeniz ten görünümü sağlanır." },
+      { q: "Dinamik hareket sistemi ne demek?", a: "EVO iskelet ile birlikte gelen gelişmiş eklem yapısı, daha serbest ve doğal hareketlere olanak tanır." },
+      { q: "Isıtma sistemi tüm vücutta mı çalışır?", a: "Isıtma sistemi gövde bölgesinde çalışır ve güvenli sıcaklık aralığında (36-40°C) kalır." },
+      { q: "Hangi aksesuar çeşitleri mevcuttur?", a: "Premium bakım seti, gövde ısıtıcı, temizlik kiti ve isteğe bağlı kıyafet seçenekleri bulunur." },
+      { q: "Gizlilik nasıl sağlanıyor?", a: "Ürün, içeriği belli etmeyen paketleme ve isimsiz fatura ile gönderilir." },
+      { q: "Garanti kapsamı nedir?", a: "Adult X bebeklerinde 18 ay üretim garantisi ve ilk 6 ay ücretsiz bakım desteği." }
+    ]
+  },
+  {
+    slug: "celine-evo",
+    name: "Celine Evo",
+    subtitle: "Parisyen şıklığı ve sofistike elegans",
+    price: 110399,
+    currency: "TRY",
+    leadTimeDays: 28,
+    persona: {
+      summary: "Celine, Parisyen şıklığını ve sofistike elegansi bir araya getiren zarif bir deneyim sunar. İnce detayları ve kusursuz dokusu ile premium bir seçim.",
+      traits: ["Sofistike", "Zarif", "Premium kalite"],
+      compatibility: ["Şıklık arayanlar", "Elegans sevenler", "Premium deneyim isteyenler"],
+      voice: "Celine için zarif ve sofistike ton profilleri önerilir."
+    },
+    specs: {
+      heightCm: 158,
+      weightKg: 41,
+      material: "Premium TPE - kusursuz doku işleme",
+      skeleton: "EVO İskelet - zarif hareket sistemi",
+      options: ["Isıtma sistemi", "3 farklı kanal", "Bakım kiti dahil"]
+    },
+    options: {
+      skinTones: ["Porselen", "Açık Ten", "Doğal"],
+      hair: ["Uzun platin", "Orta kahve", "Kısa şık"],
+      eyes: ["Mavi", "Gri", "Ela"],
+      skeletons: ["EVO Standart", "EVO Premium"],
+      accessories: ["Premium bakım seti", "Isıtıcı modül", "Temizlik kiti"]
+    },
+    gallery: [
+      { src: "https://www.erotikshoptoptan.com/images/urunler/celine---evo-skeleton-sex-doll-iskeletli-tam-realistik-manken-15-resim-1625.jpg", alt: "Celine Evo görsel 1", width: 960, height: 1280 },
+      { src: "https://www.erotikshoptoptan.com/images/urunler/celine---evo-skeleton-sex-doll-iskeletli-tam-realistik-manken-15-resim2-1625.jpg", alt: "Celine Evo görsel 2", width: 960, height: 1280 },
+      { src: "https://www.erotikshoptoptan.com/images/urunler/celine---evo-skeleton-sex-doll-iskeletli-tam-realistik-manken-15-resim3-1625.jpg", alt: "Celine Evo görsel 3", width: 960, height: 1280 },
+      { src: "https://www.erotikshoptoptan.com/images/urunler/celine---evo-skeleton-sex-doll-iskeletli-tam-realistik-manken-15-resim4-1625.jpg", alt: "Celine Evo görsel 4", width: 960, height: 1280 },
+      { src: "https://www.erotikshoptoptan.com/images/urunler/celine---evo-skeleton-sex-doll-iskeletli-tam-realistik-manken-15-resim5-1625.jpg", alt: "Celine Evo görsel 5", width: 960, height: 1280 }
+    ],
+    videos: [],
+    faq: [
+      { q: "Celine'in kusursuz doku işleme nedir?", a: "Özel kalıplama teknolojisi ile daha pürüzsüz ve gerçekçi ten dokusu sağlanmıştır." },
+      { q: "Premium kalite farkı nedir?", a: "Daha detaylı işçilik, gelişmiş malzeme kalitesi ve özenli makyaj uygulaması ile üretilir." },
+      { q: "Bakım ne kadar sıklıkta yapılmalı?", a: "Kullanım sonrası hafif temizlik, haftada bir detaylı temizlik ve pudralama önerilir." },
+      { q: "Paket içeriği nelerdir?", a: "Celine makyajlı, iç çamaşırı, ısıtıcı modül, temizlik kiti, eldiven, tarak ve kullanım kılavuzu ile gelir." },
+      { q: "Teslimatta gizlilik garantisi var mı?", a: "Evet, isimsiz paketleme ve gizli kargo ile güvenli teslimat yapılır." },
+      { q: "Garanti süresi ne kadar?", a: "Adult X bebeklerinde 18 ay üretim garantisi ve ilk 6 ay ücretsiz bakım hizmeti." }
+    ]
+  },
+  {
+    slug: "becca-evo",
+    name: "Becca Evo",
+    subtitle: "Genç energia ve dinamik kişilik",
+    price: 110399,
+    currency: "TRY",
+    leadTimeDays: 28,
+    persona: {
+      summary: "Becca, genç enerjisi ve dinamik kişiliği ile her anınızı özel kılar. Oyuncu ruhu ve esnek yapısı ile rahat kullanım deneyimi sunar.",
+      traits: ["Genç energia", "Dinamik", "Oyuncu ruh"],
+      compatibility: ["Aktif yaşam", "Genç ruh arayanlar", "Dinamik kişilik sevenler"],
+      voice: "Becca için canlı ve enerjik ton profilleri önerilir."
+    },
+    specs: {
+      heightCm: 158,
+      weightKg: 41,
+      material: "Premium TPE - genç ve canlı doku",
+      skeleton: "EVO İskelet - aktif hareket sistemi",
+      options: ["Isıtma sistemi", "3 farklı kanal", "Bakım kiti dahil"]
+    },
+    options: {
+      skinTones: ["Taze Ten", "Doğal", "Canlı Ton"],
+      hair: ["Uzun sarı", "Orta kızıl", "Kısa modern"],
+      eyes: ["Mavi", "Yeşil", "Ela"],
+      skeletons: ["EVO Standart", "EVO Aktif"],
+      accessories: ["Premium bakım seti", "Isıtıcı modül", "Temizlik kiti"]
+    },
+    gallery: [
+      { src: "https://www.erotikshoptoptan.com/images/urunler/becca---evo-skeleton-sex-doll-iskeletli-tam-realistik-manken-158-resim-1626.jpg", alt: "Becca Evo görsel 1", width: 960, height: 1280 },
+      { src: "https://www.erotikshoptoptan.com/images/urunler/becca---evo-skeleton-sex-doll-iskeletli-tam-realistik-manken-158-resim2-1626.jpg", alt: "Becca Evo görsel 2", width: 960, height: 1280 },
+      { src: "https://www.erotikshoptoptan.com/images/urunler/becca---evo-skeleton-sex-doll-iskeletli-tam-realistik-manken-158-resim3-1626.jpg", alt: "Becca Evo görsel 3", width: 960, height: 1280 },
+      { src: "https://www.erotikshoptoptan.com/images/urunler/becca---evo-skeleton-sex-doll-iskeletli-tam-realistik-manken-158-resim4-1626.jpg", alt: "Becca Evo görsel 4", width: 960, height: 1280 },
+      { src: "https://www.erotikshoptoptan.com/images/urunler/becca---evo-skeleton-sex-doll-iskeletli-tam-realistik-manken-158-resim5-1626.jpg", alt: "Becca Evo görsel 5", width: 960, height: 1280 }
+    ],
+    videos: [],
+    faq: [
+      { q: "Becca hangi yaş grubuna uygun?", a: "18+ kullanıcılar için tasarlanmıştır. Genç energia ifadesi kişilik özelliğini tanımlar." },
+      { q: "Aktif hareket sistemi nedir?", a: "EVO iskelet ile birlikte gelen gelişmiş eklem yapısı, daha dinamik ve aktif pozlara olanak tanır." },
+      { q: "Temizlik ne kadar sürer?", a: "Hızlı temizlik 5-10 dakika, detaylı temizlik 15-20 dakika sürer." },
+      { q: "Hangi aksesuar seçenekleri var?", a: "Premium bakım seti, ısıtıcı modül, temizlik kiti ve isteğe bağlı kıyafet seçenekleri mevcuttur." },
+      { q: "Gizli teslimat yapılıyor mu?", a: "Evet, isimsiz paketleme ve gizli kargo ile güvenli teslimat sağlanır." },
+      { q: "Garanti süresi nedir?", a: "Adult X bebeklerinde 18 ay üretim garantisi ve ilk 6 ay ücretsiz bakım desteği." }
+    ]
+  },
+  {
+    slug: "alexa-evo",
+    name: "Alexa Evo",
+    subtitle: "Modern teknoloji ve çağdaş estetik",
+    price: 110399,
+    currency: "TRY",
+    leadTimeDays: 28,
+    persona: {
+      summary: "Alexa, modern teknoloji ve çağdaş estetiği bir araya getiren ideal bir seçim. Minimalist tasarımı ve ileri teknoloji özellikleriyle öne çıkar.",
+      traits: ["Modern", "Teknolojik", "Minimalist"],
+      compatibility: ["Teknoloji severler", "Modern tasarım arayanlar", "Minimalist estetik"],
+      voice: "Alexa için modern ve teknolojik ton profilleri önerilir."
+    },
+    specs: {
+      heightCm: 158,
+      weightKg: 41,
+      material: "Premium TPE - son teknoloji doku",
+      skeleton: "EVO İskelet - gelişmiş teknoloji sistemi",
+      options: ["Isıtma sistemi", "3 farklı kanal", "Bakım kiti dahil"]
+    },
+    options: {
+      skinTones: ["Porselen", "Modern Ten", "Minimal Ton"],
+      hair: ["Uzun düz", "Orta sleek", "Kısa minimal"],
+      eyes: ["Gri", "Mavi", "Kahverengi"],
+      skeletons: ["EVO Standart", "EVO Tech"],
+      accessories: ["Premium bakım seti", "Isıtıcı modül", "Temizlik kiti"]
+    },
+    gallery: [
+      { src: "https://www.erotikshoptoptan.com/images/urunler/alexa---evo-skeleton-sex-doll-iskeletli-tam-realistik-manken-158-resim-1627.jpg", alt: "Alexa Evo görsel 1", width: 960, height: 1280 },
+      { src: "https://www.erotikshoptoptan.com/images/urunler/alexa---evo-skeleton-sex-doll-iskeletli-tam-realistik-manken-158-resim2-1627.jpg", alt: "Alexa Evo görsel 2", width: 960, height: 1280 },
+      { src: "https://www.erotikshoptoptan.com/images/urunler/alexa---evo-skeleton-sex-doll-iskeletli-tam-realistik-manken-158-resim3-1627.jpg", alt: "Alexa Evo görsel 3", width: 960, height: 1280 },
+      { src: "https://www.erotikshoptoptan.com/images/urunler/alexa---evo-skeleton-sex-doll-iskeletli-tam-realistik-manken-158-resim4-1627.jpg", alt: "Alexa Evo görsel 4", width: 960, height: 1280 },
+      { src: "https://www.erotikshoptoptan.com/images/urunler/alexa---evo-skeleton-sex-doll-iskeletli-tam-realistik-manken-158-resim5-1627.jpg", alt: "Alexa Evo görsel 5", width: 960, height: 1280 }
+    ],
+    videos: [],
+    faq: [
+      { q: "Modern teknoloji özellikleri nelerdir?", a: "EVO iskelet sistemi, gelişmiş ısıtma modülü ve yeni nesil TPE malzeme kullanılmıştır." },
+      { q: "Minimalist estetik ne demek?", a: "Sade, zarif ve çağdaş tasarım anlayışı ile üretilmiştir. Gereksiz detaylardan arındırılmış premium görünüm." },
+      { q: "Bakım gereksinimleri nelerdir?", a: "Kullanım sonrası temizlik ve pudralama. Detaylı bakım kılavuzu ürün ile birlikte gelir." },
+      { q: "Isıtma sistemi ne kadar sürede ısınır?", a: "Ortalama 15-20 dakikada 36-40°C sıcaklığa ulaşır." },
+      { q: "Gizlilik garantisi var mı?", a: "Evet, isimsiz paketleme ve gizli kargo ile güvenli teslimat yapılır." },
+      { q: "Garanti kapsamı nedir?", a: "Adult X bebeklerinde 18 ay üretim garantisi ve ilk 6 ay ücretsiz bakım hizmeti." }
+    ]
+  },
+  {
+    slug: "lauren-trans-evo",
+    name: "Lauren Trans Evo",
+    subtitle: "Çift taraflı deneyim - Değiştirilebilir özellik",
+    price: 112999,
+    currency: "TRY",
+    leadTimeDays: 30,
+    persona: {
+      summary: "Lauren, benzersiz çift taraflı tasarımı ile farklı deneyimler arayanlar için özel olarak geliştirilmiştir. Takılıp çıkarılabilen iki farklı boy seçeneği ile tam esneklik sunar.",
+      traits: ["Çok yönlü", "Esnek seçenekler", "Benzersiz tasarım"],
+      compatibility: ["Çeşitlilik arayanlar", "Farklı deneyim isteyenler", "Esnek kullanım"],
+      voice: "Lauren için çok yönlü ve dinamik ton profilleri önerilir."
+    },
+    specs: {
+      heightCm: 158,
+      weightKg: 41,
+      material: "Premium TPE - ultra esnek doku",
+      skeleton: "EVO İskelet - çok yönlü hareket sistemi",
+      options: ["Isıtma sistemi", "3 farklı kanal", "2 farklı boy seçeneği (27cm/17cm)", "Bakım kiti dahil"]
+    },
+    options: {
+      skinTones: ["Doğal", "Açık Ten", "Sıcak Ton"],
+      hair: ["Uzun dalga", "Orta düz", "Kısa modern"],
+      eyes: ["Kahverengi", "Ela", "Yeşil"],
+      skeletons: ["EVO Standart", "EVO Multi"],
+      accessories: ["Premium bakım seti", "Isıtıcı modül", "Temizlik kiti", "İki boy opsiyonu"]
+    },
+    gallery: [
+      { src: "https://www.erotikshoptoptan.com/images/urunler/sens-girls-lauren-tpe-skeleton-tam-realistik-trans-manken-132-1.webp", alt: "Lauren Trans Evo görsel 1", width: 960, height: 1280 },
+      { src: "https://www.erotikshoptoptan.com/images/urunler/sens-girls-lauren-tpe-skeleton-tam-realistik-trans-manken-132-2.webp", alt: "Lauren Trans Evo görsel 2", width: 960, height: 1280 },
+      { src: "https://www.erotikshoptoptan.com/images/urunler/sens-girls-lauren-tpe-skeleton-tam-realistik-trans-manken-132-3.webp", alt: "Lauren Trans Evo görsel 3", width: 960, height: 1280 },
+      { src: "https://www.erotikshoptoptan.com/images/urunler/sens-girls-lauren-tpe-skeleton-tam-realistik-trans-manken-132-4.webp", alt: "Lauren Trans Evo görsel 4", width: 960, height: 1280 },
+      { src: "https://www.erotikshoptoptan.com/images/urunler/sens-girls-lauren-tpe-skeleton-tam-realistik-trans-manken-132-5.webp", alt: "Lauren Trans Evo görsel 5", width: 960, height: 1280 }
+    ],
+    videos: [],
+    faq: [
+      { q: "Değiştirilebilir özellik nasıl çalışır?", a: "İki farklı boy seçeneği (27cm ve 17cm) takılıp çıkarılabilir. Kıkırdaklı yapı sayesinde istediğiniz pozisyona uyum sağlar." },
+      { q: "Hangi boy seçenekleri var?", a: "Büyük: 27cm x 4.6cm, Küçük: 17cm x 3.5cm olmak üzere iki farklı seçenek mevcuttur." },
+      { q: "Temizlik nasıl yapılır?", a: "Her iki seçenek de ayrı ayrı temizlenebilir. Detaylı temizlik talimatları kullanım kılavuzunda yer alır." },
+      { q: "Paket içeriği neler?", a: "Lauren makyajlı, iç çamaşırı, iki boy seçeneği, ısıtıcı, temizlik kiti, eldiven, tarak ve kullanım kılavuzu ile gelir." },
+      { q: "Gizli teslimat yapılıyor mu?", a: "Evet, isimsiz paketleme ve gizli kargo ile güvenli teslimat sağlanır." },
+      { q: "Garanti süresi nedir?", a: "Adult X bebeklerinde 18 ay üretim garantisi ve ilk 6 ay ücretsiz bakım desteği sunulur." }
     ]
   }
 ];

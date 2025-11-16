@@ -11,6 +11,14 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "cdn.coverr.co",
       },
+      {
+        protocol: "https",
+        hostname: "erotikshoptoptan.com",
+      },
+      {
+        protocol: "https",
+        hostname: "toptanerotikshop.com",
+      },
     ],
   },
 };
