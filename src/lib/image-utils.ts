@@ -26,7 +26,7 @@ export function getProxiedImageUrl(originalUrl: string): string {
 /**
  * Tüm galeri görsellerini proxy üzerinden yükle
  */
-export function getProxiedGallery(gallery: Array<{ src: string; alt: string; width: number; height: number }>) {
+export function getProxiedGallery(gallery: Array<{ src: string; alt: string; width?: number; height?: number }>) {
   return gallery.map(image => ({
     ...image,
     src: getProxiedImageUrl(image.src),
