@@ -20,7 +20,7 @@ export function ProductCard({ doll, index }: { doll: ProductDoll; index: number 
           src={coverSrc}
           alt={cover.alt}
           fill
-          className="object-cover object-center"
+          className="object-cover object-top"
           sizes="(min-width: 1024px) 540px, 100vw"
           priority={index < 2}
         />
@@ -76,7 +76,7 @@ export function ProductCard({ doll, index }: { doll: ProductDoll; index: number 
               eventName="customize_start"
               className="text-[0.68rem]"
             >
-              Kişiselleştir
+              Sohbet Et
             </NeonButton>
           </div>
         </div>

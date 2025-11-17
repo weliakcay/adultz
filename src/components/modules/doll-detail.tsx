@@ -6,7 +6,6 @@ import type { ProductAccessory, ProductDoll } from "@/types/content";
 import { MediaGallery } from "@/components/modules/gallery";
 import { PersonaBadge } from "@/components/modules/persona-badge";
 import { FAQList } from "@/components/modules/faq";
-import { PersonaChat } from "@/components/modules/persona-chat";
 import { NeonButton } from "@/components/ui/neon-button";
 import { useToast } from "@/components/providers/use-toast";
 import { StickyCartDrawer } from "@/components/modules/sticky-cart-drawer";
@@ -199,7 +198,6 @@ export function DollDetail({ doll, relatedAccessories }: DollDetailProps) {
           </div>
         </div>
       </div>
-      <PersonaChat personaId={doll.slug} personaName={doll.name} />
       <StickyCartDrawer
         open={drawerOpen}
         onClose={() => setDrawerOpen(false)}

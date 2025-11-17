@@ -87,13 +87,82 @@ export function MediaGallery({
           aria-modal="true"
           aria-label="Medya galeri"
         >
+          {/* Close Button (X) */}
           <button
             type="button"
             onClick={() => setOpenIndex(null)}
-            className="absolute right-6 top-6 rounded-full border border-[rgba(255,255,255,0.2)] px-3 py-2 text-xs uppercase tracking-[0.28em] text-muted hover:text-foreground"
+            className="absolute right-6 top-6 flex h-10 w-10 items-center justify-center rounded-full border border-[rgba(255,255,255,0.2)] bg-[rgba(12,12,20,0.6)] text-muted transition hover:border-[rgba(255,255,255,0.4)] hover:text-foreground"
+            aria-label="Kapat"
           >
-            Kapat
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
+              <line x1="18" y1="6" x2="6" y2="18"></line>
+              <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
           </button>
+
+          {/* Previous Button (Left Arrow) */}
+          {items.length > 1 && (
+            <button
+              type="button"
+              onClick={() =>
+                setOpenIndex((prev) => (prev === null ? prev : (prev - 1 + items.length) % items.length))
+              }
+              className="absolute left-6 top-1/2 -translate-y-1/2 flex h-12 w-12 items-center justify-center rounded-full border border-[rgba(255,255,255,0.2)] bg-[rgba(12,12,20,0.6)] text-muted transition hover:border-[rgba(255,255,255,0.4)] hover:text-foreground"
+              aria-label="Önceki"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <polyline points="15 18 9 12 15 6"></polyline>
+              </svg>
+            </button>
+          )}
+
+          {/* Next Button (Right Arrow) */}
+          {items.length > 1 && (
+            <button
+              type="button"
+              onClick={() =>
+                setOpenIndex((prev) => (prev === null ? prev : (prev + 1) % items.length))
+              }
+              className="absolute right-6 top-1/2 -translate-y-1/2 flex h-12 w-12 items-center justify-center rounded-full border border-[rgba(255,255,255,0.2)] bg-[rgba(12,12,20,0.6)] text-muted transition hover:border-[rgba(255,255,255,0.4)] hover:text-foreground"
+              aria-label="Sonraki"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <polyline points="9 18 15 12 9 6"></polyline>
+              </svg>
+            </button>
+          )}
+
+          {/* Media Content */}
           {activeItem.type === "video" ? (
             <video
               controls
