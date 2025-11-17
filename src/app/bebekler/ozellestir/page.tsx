@@ -1,29 +1,14 @@
 import type { Metadata } from "next";
-import { OptionPicker } from "@/components/modules/option-picker";
 import { buildMetadata } from "@/lib/metadata";
+import { ChatBotSelector } from "@/components/modules/chat-bot-selector";
 
 export const metadata: Metadata = buildMetadata({
-  title: "Kendi Adult X Bebeğini Tasarla",
+  title: "Sohbet Botu - AI Persona Deneyimi",
   description:
-    "Gövde formu, cilt, saç, göz, iskelet ve aksesuar seçenekleriyle Adult X bebeğinizi 7 adımda kişiselleştirin.",
+    "Adult X AI sohbet botları ile kişiselleştirilmiş deneyim. Her manken için özel tasarlanmış persona ve sohbet özellikleri.",
   path: "/bebekler/ozellestir",
 });
 
-export default function CustomizePage() {
-  return (
-    <div className="mx-auto max-w-6xl px-6 py-16">
-      <header className="text-center">
-        <p className="text-xs uppercase tracking-[0.3em] text-muted">7 Adımda Tasarım</p>
-        <h1 className="mt-3 font-display text-4xl uppercase tracking-[0.3em] text-foreground">
-          Kendi Bebeğini Tasarla
-        </h1>
-        <p className="mt-4 text-sm text-muted">
-          Gövde formundan aksesuarlara kadar tüm seçenekleri belirleyin. Tahmini teslim süresi her adımda hatırlatılır ve seçimleriniz gizlilik politikamız kapsamında korunur.
-        </p>
-      </header>
-      <div className="mt-12">
-        <OptionPicker />
-      </div>
-    </div>
-  );
+export default function ChatBotPage() {
+  return <ChatBotSelector />;
 }
