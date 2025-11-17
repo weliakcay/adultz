@@ -34,27 +34,27 @@ export default function HomePage() {
         </section>
         <section className="mt-20 grid gap-6 md:grid-cols-2">
           <GlowCard>
-            <p className="text-xs uppercase tracking-[0.3em] text-muted">Modern Oyuncaklar</p>
+            <p className="text-xs uppercase tracking-[0.3em] text-muted">Aksesuarlar</p>
             <h3 className="mt-3 font-display text-2xl uppercase tracking-[0.28em] text-foreground">
-              Neon Modern Koleksiyon
+              Tamamlayıcı Aksesuarlar
             </h3>
             <p className="mt-3 text-sm text-muted">
-              Sessiz mod, su geçirmez gövde ve Adult X uygulamasıyla senkron çalışan modern oyuncaklarımızı keşfedin.
+              Fantezi giyim, peruklar, takılar ve bakım ürünleri. Mankenleriniz için özel tasarlanmış tamamlayıcı aksesuarları keşfedin.
             </p>
             <NeonButton href="/oyuncaklar/modern" intensity="blue" size="sm" className="mt-6">
-              Modern Oyuncaklar
+              Aksesuarlar
             </NeonButton>
           </GlowCard>
           <GlowCard>
-            <p className="text-xs uppercase tracking-[0.3em] text-muted">Gizli Oyuncaklar</p>
+            <p className="text-xs uppercase tracking-[0.3em] text-muted">Cosplay</p>
             <h3 className="mt-3 font-display text-2xl uppercase tracking-[0.28em] text-foreground">
-              Veil Gizli Serisi
+              Kostüm Koleksiyonu
             </h3>
             <p className="mt-3 text-sm text-muted">
-              Minimalist tasarımlı, gizli paketleme standartlı ürünler. Gürültüsüz ve taşınabilir çözümler.
+              Tematik kostümler, rol yapma kıyafetleri ve özel tasarım setler. Hayalinizdeki karakteri yaratın.
             </p>
             <NeonButton href="/oyuncaklar/gizli" intensity="purple" size="sm" className="mt-6">
-              Gizli Oyuncaklar
+              Cosplay
             </NeonButton>
           </GlowCard>
         </section>
