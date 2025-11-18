@@ -51,7 +51,10 @@ export function SiteHeader() {
         </nav>
         <div className="hidden lg:flex">
           <NeonButton href="/bebekler/ozellestir" size="sm" intensity="purple">
-            Sohbet Botu
+            <span className="flex flex-col items-center leading-tight">
+              <span>Sohbet</span>
+              <span>Botu</span>
+            </span>
           </NeonButton>
         </div>
         <button
@@ -109,7 +112,10 @@ export function SiteHeader() {
               intensity="purple"
               onClick={() => setMobileOpen(false)}
             >
-              Sohbet Botu
+              <span className="flex flex-col items-center leading-tight">
+                <span>Sohbet</span>
+                <span>Botu</span>
+              </span>
             </NeonButton>
           </div>
         </nav>
