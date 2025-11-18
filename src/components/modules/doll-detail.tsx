@@ -8,6 +8,7 @@ import { PersonaBadge } from "@/components/modules/persona-badge";
 import { FAQList } from "@/components/modules/faq";
 import { NeonButton } from "@/components/ui/neon-button";
 import { useToast } from "@/components/providers/use-toast";
+import { useCart } from "@/contexts/cart-context";
 import { StickyCartDrawer } from "@/components/modules/sticky-cart-drawer";
 import { getProxiedImageUrl, getProxiedGallery } from "@/lib/image-utils";
 
@@ -34,11 +35,23 @@ type DollDetailProps = {
 export function DollDetail({ doll, relatedAccessories }: DollDetailProps) {
   const [drawerOpen, setDrawerOpen] = useState(false);
   const { pushToast } = useToast();
+  const { addItem } = useCart();
 
   const handleAddToCart = () => {
+    // Sepete ekle
+    addItem({
+      id: doll.slug,
+      slug: doll.slug,
+      name: doll.name,
+      price: doll.price,
+      currency: doll.currency,
+      image: doll.gallery[0].src,
+    });
+
+    // Toast göster
     pushToast({
       title: "Sepete eklendi",
-      description: `${doll.name} gizli paketleme ile hazırlanıyor.`,
+      description: `${doll.name} sepetinize eklendi.`,
       variant: "success",
     });
     setDrawerOpen(true);

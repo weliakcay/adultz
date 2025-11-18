@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { clsx } from "clsx";
 import { NeonButton } from "@/components/ui/neon-button";
+import { useCart } from "@/contexts/cart-context";
 
 const navItems = [
   { href: "/bebekler", label: "Silikon Mankenler" },
@@ -20,6 +21,7 @@ const navItems = [
 export function SiteHeader() {
   const pathname = usePathname();
   const [mobileOpen, setMobileOpen] = useState(false);
+  const { itemCount } = useCart();
 
   return (
     <header className="sticky top-0 z-40 border-b border-[rgba(157,78,221,0.18)] bg-[rgba(7,7,12,0.88)]/90 backdrop-blur-xl">
@@ -58,7 +60,21 @@ export function SiteHeader() {
             );
           })}
         </nav>
-        <div className="hidden lg:flex">
+        <div className="hidden items-center gap-3 lg:flex">
+          <Link
+            href="/sepet"
+            className="relative flex h-10 w-10 items-center justify-center rounded-full border border-[rgba(157,78,221,0.3)] bg-[rgba(12,12,20,0.6)] transition hover:border-[rgba(0,180,216,0.5)] hover:bg-[rgba(0,180,216,0.1)]"
+            aria-label="Sepet"
+          >
+            <svg className="h-5 w-5 text-foreground" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
+            </svg>
+            {itemCount > 0 && (
+              <span className="absolute -right-1 -top-1 flex h-5 w-5 items-center justify-center rounded-full border border-[rgba(7,7,12,0.9)] bg-[rgba(255,0,84,1)] text-[10px] font-bold text-white shadow-[0_0_10px_rgba(255,0,84,0.6)]">
+                {itemCount > 9 ? "9+" : itemCount}
+              </span>
+            )}
+          </Link>
           <NeonButton href="/bebekler/ozellestir" size="sm" intensity="purple">
             <span className="flex flex-col items-center leading-tight">
               <span>Sohbet</span>
@@ -66,32 +82,47 @@ export function SiteHeader() {
             </span>
           </NeonButton>
         </div>
-        <button
-          type="button"
-          className="lg:hidden"
-          aria-label={mobileOpen ? "Menüyü kapat" : "Menüyü aç"}
-          onClick={() => setMobileOpen((prev) => !prev)}
-        >
-          <span className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-[rgba(255,255,255,0.1)]">
-            <span className="sr-only">Menü</span>
-            <svg
-              width="20"
-              height="20"
-              viewBox="0 0 24 24"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-              aria-hidden="true"
-            >
-              <path
-                d="M4 7H20M4 12H20M4 17H20"
-                stroke="currentColor"
-                strokeWidth="1.5"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
+        <div className="flex items-center gap-3 lg:hidden">
+          <Link
+            href="/sepet"
+            className="relative flex h-10 w-10 items-center justify-center rounded-full border border-[rgba(157,78,221,0.3)] bg-[rgba(12,12,20,0.6)]"
+            aria-label="Sepet"
+          >
+            <svg className="h-5 w-5 text-foreground" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
             </svg>
-          </span>
-        </button>
+            {itemCount > 0 && (
+              <span className="absolute -right-1 -top-1 flex h-5 w-5 items-center justify-center rounded-full border border-[rgba(7,7,12,0.9)] bg-[rgba(255,0,84,1)] text-[10px] font-bold text-white shadow-[0_0_10px_rgba(255,0,84,0.6)]">
+                {itemCount > 9 ? "9+" : itemCount}
+              </span>
+            )}
+          </Link>
+          <button
+            type="button"
+            aria-label={mobileOpen ? "Menüyü kapat" : "Menüyü aç"}
+            onClick={() => setMobileOpen((prev) => !prev)}
+          >
+            <span className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-[rgba(255,255,255,0.1)]">
+              <span className="sr-only">Menü</span>
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true"
+              >
+                <path
+                  d="M4 7H20M4 12H20M4 17H20"
+                  stroke="currentColor"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </span>
+          </button>
+        </div>
       </div>
       {mobileOpen ? (
         <nav className="border-t border-[rgba(157,78,221,0.18)] bg-[rgba(7,7,12,0.95)] px-6 py-6 lg:hidden">

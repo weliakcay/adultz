@@ -89,7 +89,7 @@ export default function HomePage() {
             </p>
 
             <NeonButton href="/quiz" intensity="pink" size="md" className="mt-6">
-              Quiz'e Başla
+              Quiz&apos;e Başla
             </NeonButton>
           </GlowCard>
           <div className="space-y-5">
