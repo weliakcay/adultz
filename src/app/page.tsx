@@ -59,16 +59,37 @@ export default function HomePage() {
           </GlowCard>
         </section>
         <section className="mt-20 grid gap-10 lg:grid-cols-[1.2fr_1fr]">
-          <GlowCard className="lg:order-2">
-            <p className="text-xs uppercase tracking-[0.3em] text-muted">Quiz</p>
+          <GlowCard className="lg:order-2 flex flex-col items-center text-center">
+            <p className="text-xs uppercase tracking-[0.3em] text-muted">Kişiselleştirilmiş Öneri</p>
             <h3 className="mt-3 font-display text-2xl uppercase tracking-[0.28em] text-foreground">
               Hangisi sana göre?
             </h3>
             <p className="mt-3 text-sm text-muted">
               Beklentinizi, kullanım senaryonuzu ve bakım alışkanlıklarınızı birkaç soruyla paylaşın; sizin için 1 bebek ve 2 yan ürün önerelim.
             </p>
-            <NeonButton href="/quiz" intensity="pink" size="sm" className="mt-6">
-              Quiz’e Başla
+
+            {/* Quiz İstatistikleri */}
+            <div className="mt-6 grid grid-cols-3 gap-6 w-full max-w-xs">
+              <div className="flex flex-col items-center">
+                <p className="text-3xl font-bold text-foreground">5</p>
+                <p className="mt-1 text-xs uppercase tracking-[0.2em] text-muted">Soru</p>
+              </div>
+              <div className="flex flex-col items-center border-x border-[rgba(157,78,221,0.2)]">
+                <p className="text-3xl font-bold text-foreground">~2</p>
+                <p className="mt-1 text-xs uppercase tracking-[0.2em] text-muted">Dakika</p>
+              </div>
+              <div className="flex flex-col items-center">
+                <p className="text-3xl font-bold text-foreground">3</p>
+                <p className="mt-1 text-xs uppercase tracking-[0.2em] text-muted">Öneri</p>
+              </div>
+            </div>
+
+            <p className="mt-6 text-xs text-muted max-w-sm">
+              AI destekli öneri sistemimiz, tercihlerinize göre size en uygun manken ve aksesuarları seçer.
+            </p>
+
+            <NeonButton href="/quiz" intensity="pink" size="md" className="mt-6">
+              Quiz'e Başla
             </NeonButton>
           </GlowCard>
           <div className="space-y-5">

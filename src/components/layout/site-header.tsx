@@ -28,13 +28,15 @@ export function SiteHeader() {
           <span className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-[rgba(255,255,255,0.08)] bg-[rgba(157,78,221,0.2)] text-lg font-bold text-foreground">
             AX
           </span>
-          <span className="font-display text-lg uppercase tracking-[0.35em] text-foreground">
+          <span className="font-display text-lg uppercase tracking-[0.35em] text-foreground whitespace-nowrap">
             Adult X
           </span>
         </Link>
         <nav className="hidden items-center gap-6 text-sm uppercase tracking-[0.2em] text-muted lg:flex">
           {navItems.map((item) => {
             const isActive = pathname.startsWith(item.href);
+            const isSilikonMankenler = item.label === "Silikon Mankenler";
+
             return (
               <Link
                 key={item.href}
@@ -44,7 +46,14 @@ export function SiteHeader() {
                   isActive && "text-foreground",
                 )}
               >
-                {item.label}
+                {isSilikonMankenler ? (
+                  <span className="flex flex-col items-center leading-tight">
+                    <span>Silikon</span>
+                    <span>Mankenler</span>
+                  </span>
+                ) : (
+                  item.label
+                )}
               </Link>
             );
           })}

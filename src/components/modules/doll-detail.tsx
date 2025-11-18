@@ -141,7 +141,7 @@ export function DollDetail({ doll, relatedAccessories }: DollDetailProps) {
                   Sepete Ekle
                 </NeonButton>
                 <NeonButton href="/bebekler/ozellestir" size="sm" intensity="purple" eventName="customize_start">
-                  Kişiselleştir
+                  Sohbet Et
                 </NeonButton>
               </div>
             </div>
